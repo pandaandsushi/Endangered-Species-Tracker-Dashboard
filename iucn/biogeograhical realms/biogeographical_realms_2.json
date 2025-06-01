@@ -1,0 +1,2111 @@
+{
+  "biogeographical_realm": {
+    "description": {
+      "en": "Australasian"
+    },
+    "code": "2"
+  },
+  "assessments": [
+    {
+      "year_published": "2021",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 10825,
+      "url": "https://www.iucnredlist.org/species/10825/499158",
+      "taxon_scientific_name": "Indotestudo forstenii",
+      "red_list_category_code": "CR",
+      "assessment_id": 499158,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2012",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 11060,
+      "url": "https://www.iucnredlist.org/species/11060/500601",
+      "taxon_scientific_name": "Kuhlia marginata",
+      "red_list_category_code": "LC",
+      "assessment_id": 500601,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2012",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 13392,
+      "url": "https://www.iucnredlist.org/species/13392/512698",
+      "taxon_scientific_name": "Microphis spinachioides",
+      "red_list_category_code": "DD",
+      "assessment_id": 512698,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2012",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 135567,
+      "url": "https://www.iucnredlist.org/species/135567/515308",
+      "taxon_scientific_name": "Mugil cephalus",
+      "red_list_category_code": "LC",
+      "assessment_id": 515308,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2016",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 136773,
+      "url": "https://www.iucnredlist.org/species/136773/519016",
+      "taxon_scientific_name": "Uromys boeadii",
+      "red_list_category_code": "CR",
+      "assessment_id": 519016,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137084,
+      "url": "https://www.iucnredlist.org/species/137084/519692",
+      "taxon_scientific_name": "Onthophagus manya",
+      "red_list_category_code": "LC",
+      "assessment_id": 519692,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137097,
+      "url": "https://www.iucnredlist.org/species/137097/519904",
+      "taxon_scientific_name": "Coptodactyla lesnei",
+      "red_list_category_code": "LC",
+      "assessment_id": 519904,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137119,
+      "url": "https://www.iucnredlist.org/species/137119/520192",
+      "taxon_scientific_name": "Onthophagus lamgalio",
+      "red_list_category_code": "DD",
+      "assessment_id": 520192,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137136,
+      "url": "https://www.iucnredlist.org/species/137136/520484",
+      "taxon_scientific_name": "Onthophagus rufosignatus",
+      "red_list_category_code": "LC",
+      "assessment_id": 520484,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137137,
+      "url": "https://www.iucnredlist.org/species/137137/520498",
+      "taxon_scientific_name": "Thyregis relictus",
+      "red_list_category_code": "DD",
+      "assessment_id": 520498,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137185,
+      "url": "https://www.iucnredlist.org/species/137185/521163",
+      "taxon_scientific_name": "Demarziella storeyi",
+      "red_list_category_code": "DD",
+      "assessment_id": 521163,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137209,
+      "url": "https://www.iucnredlist.org/species/137209/521465",
+      "taxon_scientific_name": "Sauvagesinella palustris",
+      "red_list_category_code": "LC",
+      "assessment_id": 521465,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137213,
+      "url": "https://www.iucnredlist.org/species/137213/521569",
+      "taxon_scientific_name": "Demarziella eungella",
+      "red_list_category_code": "DD",
+      "assessment_id": 521569,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137242,
+      "url": "https://www.iucnredlist.org/species/137242/522034",
+      "taxon_scientific_name": "Temnoplectron cooki",
+      "red_list_category_code": "LC",
+      "assessment_id": 522034,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137266,
+      "url": "https://www.iucnredlist.org/species/137266/522397",
+      "taxon_scientific_name": "Onthophagus subocelliger",
+      "red_list_category_code": "LC",
+      "assessment_id": 522397,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137267,
+      "url": "https://www.iucnredlist.org/species/137267/522411",
+      "taxon_scientific_name": "Temnoplectron rotundum",
+      "red_list_category_code": "LC",
+      "assessment_id": 522411,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137272,
+      "url": "https://www.iucnredlist.org/species/137272/522475",
+      "taxon_scientific_name": "Onthophagus alquirta",
+      "red_list_category_code": "DD",
+      "assessment_id": 522475,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137295,
+      "url": "https://www.iucnredlist.org/species/137295/522844",
+      "taxon_scientific_name": "Onthophagus vilis",
+      "red_list_category_code": "DD",
+      "assessment_id": 522844,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137297,
+      "url": "https://www.iucnredlist.org/species/137297/522872",
+      "taxon_scientific_name": "Onthophagus parallelicornis",
+      "red_list_category_code": "LC",
+      "assessment_id": 522872,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137309,
+      "url": "https://www.iucnredlist.org/species/137309/523026",
+      "taxon_scientific_name": "Onthophagus muticus",
+      "red_list_category_code": "LC",
+      "assessment_id": 523026,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137322,
+      "url": "https://www.iucnredlist.org/species/137322/523200",
+      "taxon_scientific_name": "Onthophagus granulatus",
+      "red_list_category_code": "LC",
+      "assessment_id": 523200,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137345,
+      "url": "https://www.iucnredlist.org/species/137345/523648",
+      "taxon_scientific_name": "Onthophagus gulmarri",
+      "red_list_category_code": "LC",
+      "assessment_id": 523648,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137354,
+      "url": "https://www.iucnredlist.org/species/137354/523774",
+      "taxon_scientific_name": "Onthophagus mundill",
+      "red_list_category_code": "LC",
+      "assessment_id": 523774,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137375,
+      "url": "https://www.iucnredlist.org/species/137375/524110",
+      "taxon_scientific_name": "Coptodactyla nitida",
+      "red_list_category_code": "LC",
+      "assessment_id": 524110,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137381,
+      "url": "https://www.iucnredlist.org/species/137381/524251",
+      "taxon_scientific_name": "Lepanus pisoniae",
+      "red_list_category_code": "DD",
+      "assessment_id": 524251,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137385,
+      "url": "https://www.iucnredlist.org/species/137385/524295",
+      "taxon_scientific_name": "Coptodactyla storeyi",
+      "red_list_category_code": "LC",
+      "assessment_id": 524295,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137409,
+      "url": "https://www.iucnredlist.org/species/137409/524728",
+      "taxon_scientific_name": "Demarziella imitatrix",
+      "red_list_category_code": "LC",
+      "assessment_id": 524728,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137428,
+      "url": "https://www.iucnredlist.org/species/137428/524994",
+      "taxon_scientific_name": "Onthophagus australis",
+      "red_list_category_code": "LC",
+      "assessment_id": 524994,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137429,
+      "url": "https://www.iucnredlist.org/species/137429/525008",
+      "taxon_scientific_name": "Onthophagus victoriensis",
+      "red_list_category_code": "LC",
+      "assessment_id": 525008,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137433,
+      "url": "https://www.iucnredlist.org/species/137433/525064",
+      "taxon_scientific_name": "Temnoplectron finnigani",
+      "red_list_category_code": "LC",
+      "assessment_id": 525064,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137441,
+      "url": "https://www.iucnredlist.org/species/137441/525164",
+      "taxon_scientific_name": "Onthophagus semimetallicus",
+      "red_list_category_code": "LC",
+      "assessment_id": 525164,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137461,
+      "url": "https://www.iucnredlist.org/species/137461/525457",
+      "taxon_scientific_name": "Onthophagus tamworthi",
+      "red_list_category_code": "LC",
+      "assessment_id": 525457,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137515,
+      "url": "https://www.iucnredlist.org/species/137515/526270",
+      "taxon_scientific_name": "Onthophagus propinquus",
+      "red_list_category_code": "LC",
+      "assessment_id": 526270,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137526,
+      "url": "https://www.iucnredlist.org/species/137526/526573",
+      "taxon_scientific_name": "Aulacopris matthewsi",
+      "red_list_category_code": "VU",
+      "assessment_id": 526573,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137555,
+      "url": "https://www.iucnredlist.org/species/137555/527017",
+      "taxon_scientific_name": "Demarziella planitarsis",
+      "red_list_category_code": "DD",
+      "assessment_id": 527017,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137567,
+      "url": "https://www.iucnredlist.org/species/137567/527185",
+      "taxon_scientific_name": "Aulacopris reichei",
+      "red_list_category_code": "LC",
+      "assessment_id": 527185,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137568,
+      "url": "https://www.iucnredlist.org/species/137568/527199",
+      "taxon_scientific_name": "Onthophagus hoplocerus",
+      "red_list_category_code": "LC",
+      "assessment_id": 527199,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137578,
+      "url": "https://www.iucnredlist.org/species/137578/527325",
+      "taxon_scientific_name": "Boletoscapter furcatus",
+      "red_list_category_code": "LC",
+      "assessment_id": 527325,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137609,
+      "url": "https://www.iucnredlist.org/species/137609/527847",
+      "taxon_scientific_name": "Onthophagus bornemisszai",
+      "red_list_category_code": "LC",
+      "assessment_id": 527847,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137618,
+      "url": "https://www.iucnredlist.org/species/137618/528044",
+      "taxon_scientific_name": "Onthophagus mamillatus",
+      "red_list_category_code": "LC",
+      "assessment_id": 528044,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137631,
+      "url": "https://www.iucnredlist.org/species/137631/528307",
+      "taxon_scientific_name": "Onthophagus anchommatus",
+      "red_list_category_code": "LC",
+      "assessment_id": 528307,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2025",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137632,
+      "url": "https://www.iucnredlist.org/species/137632/528321",
+      "taxon_scientific_name": "Paragymnopleurus planus",
+      "red_list_category_code": "DD",
+      "assessment_id": 528321,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137645,
+      "url": "https://www.iucnredlist.org/species/137645/528504",
+      "taxon_scientific_name": "Lepanus politus",
+      "red_list_category_code": "LC",
+      "assessment_id": 528504,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137672,
+      "url": "https://www.iucnredlist.org/species/137672/528983",
+      "taxon_scientific_name": "Onthophagus bindaree",
+      "red_list_category_code": "DD",
+      "assessment_id": 528983,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137715,
+      "url": "https://www.iucnredlist.org/species/137715/529710",
+      "taxon_scientific_name": "Lepanus gelasinus",
+      "red_list_category_code": "DD",
+      "assessment_id": 529710,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137742,
+      "url": "https://www.iucnredlist.org/species/137742/530203",
+      "taxon_scientific_name": "Cephalodesmius armiger",
+      "red_list_category_code": "LC",
+      "assessment_id": 530203,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137774,
+      "url": "https://www.iucnredlist.org/species/137774/530705",
+      "taxon_scientific_name": "Amphistomus speculifer",
+      "red_list_category_code": "LC",
+      "assessment_id": 530705,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137778,
+      "url": "https://www.iucnredlist.org/species/137778/530761",
+      "taxon_scientific_name": "Temnoplectron bornemisszai",
+      "red_list_category_code": "LC",
+      "assessment_id": 530761,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137782,
+      "url": "https://www.iucnredlist.org/species/137782/530811",
+      "taxon_scientific_name": "Onthophagus yiryoront",
+      "red_list_category_code": "DD",
+      "assessment_id": 530811,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137793,
+      "url": "https://www.iucnredlist.org/species/137793/530990",
+      "taxon_scientific_name": "Onthophagus bunamin",
+      "red_list_category_code": "LC",
+      "assessment_id": 530990,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137813,
+      "url": "https://www.iucnredlist.org/species/137813/531258",
+      "taxon_scientific_name": "Onthophagus asper",
+      "red_list_category_code": "LC",
+      "assessment_id": 531258,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137849,
+      "url": "https://www.iucnredlist.org/species/137849/532087",
+      "taxon_scientific_name": "Thyregis tarsatus",
+      "red_list_category_code": "DD",
+      "assessment_id": 532087,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137905,
+      "url": "https://www.iucnredlist.org/species/137905/533112",
+      "taxon_scientific_name": "Onthophagus anisocerus",
+      "red_list_category_code": "LC",
+      "assessment_id": 533112,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137944,
+      "url": "https://www.iucnredlist.org/species/137944/533685",
+      "taxon_scientific_name": "Lepanus pygmaeus",
+      "red_list_category_code": "LC",
+      "assessment_id": 533685,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137984,
+      "url": "https://www.iucnredlist.org/species/137984/534371",
+      "taxon_scientific_name": "Amphistomus complanatus",
+      "red_list_category_code": "LC",
+      "assessment_id": 534371,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 137994,
+      "url": "https://www.iucnredlist.org/species/137994/534511",
+      "taxon_scientific_name": "Onthophagus atrox",
+      "red_list_category_code": "LC",
+      "assessment_id": 534511,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138012,
+      "url": "https://www.iucnredlist.org/species/138012/534757",
+      "taxon_scientific_name": "Monoplistes phanophilus",
+      "red_list_category_code": "LC",
+      "assessment_id": 534757,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138013,
+      "url": "https://www.iucnredlist.org/species/138013/534771",
+      "taxon_scientific_name": "Temnoplectron disruptum",
+      "red_list_category_code": "LC",
+      "assessment_id": 534771,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138016,
+      "url": "https://www.iucnredlist.org/species/138016/534813",
+      "taxon_scientific_name": "Aptenocanthon hopsoni",
+      "red_list_category_code": "LC",
+      "assessment_id": 534813,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138032,
+      "url": "https://www.iucnredlist.org/species/138032/535069",
+      "taxon_scientific_name": "Onthophagus capelliformis",
+      "red_list_category_code": "LC",
+      "assessment_id": 535069,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138050,
+      "url": "https://www.iucnredlist.org/species/138050/535373",
+      "taxon_scientific_name": "Onthophagus weringerong",
+      "red_list_category_code": "LC",
+      "assessment_id": 535373,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138077,
+      "url": "https://www.iucnredlist.org/species/138077/535790",
+      "taxon_scientific_name": "Onthophagus leanus",
+      "red_list_category_code": "LC",
+      "assessment_id": 535790,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138121,
+      "url": "https://www.iucnredlist.org/species/138121/536354",
+      "taxon_scientific_name": "Onthophagus adelaidae",
+      "red_list_category_code": "DD",
+      "assessment_id": 536354,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138130,
+      "url": "https://www.iucnredlist.org/species/138130/536474",
+      "taxon_scientific_name": "Onthophagus bicornis",
+      "red_list_category_code": "LC",
+      "assessment_id": 536474,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138148,
+      "url": "https://www.iucnredlist.org/species/138148/537031",
+      "taxon_scientific_name": "Onthophagus tweedensis",
+      "red_list_category_code": "LC",
+      "assessment_id": 537031,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138203,
+      "url": "https://www.iucnredlist.org/species/138203/537795",
+      "taxon_scientific_name": "Temnoplectron subvolitans",
+      "red_list_category_code": "LC",
+      "assessment_id": 537795,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138216,
+      "url": "https://www.iucnredlist.org/species/138216/538062",
+      "taxon_scientific_name": "Aptenocanthon winyar",
+      "red_list_category_code": "LC",
+      "assessment_id": 538062,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138270,
+      "url": "https://www.iucnredlist.org/species/138270/538912",
+      "taxon_scientific_name": "Cephalodesmius laticollis",
+      "red_list_category_code": "LC",
+      "assessment_id": 538912,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138271,
+      "url": "https://www.iucnredlist.org/species/138271/538926",
+      "taxon_scientific_name": "Onthophagus tenebrosus",
+      "red_list_category_code": "LC",
+      "assessment_id": 538926,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138289,
+      "url": "https://www.iucnredlist.org/species/138289/539172",
+      "taxon_scientific_name": "Onthophagus binyana",
+      "red_list_category_code": "LC",
+      "assessment_id": 539172,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138291,
+      "url": "https://www.iucnredlist.org/species/138291/539200",
+      "taxon_scientific_name": "Onthophagus yungaburra",
+      "red_list_category_code": "LC",
+      "assessment_id": 539200,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138313,
+      "url": "https://www.iucnredlist.org/species/138313/539560",
+      "taxon_scientific_name": "Onthophagus laminatus",
+      "red_list_category_code": "LC",
+      "assessment_id": 539560,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138316,
+      "url": "https://www.iucnredlist.org/species/138316/539602",
+      "taxon_scientific_name": "Tesserodon pilicrepus",
+      "red_list_category_code": "DD",
+      "assessment_id": 539602,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2014",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138336,
+      "url": "https://www.iucnredlist.org/species/138336/539958",
+      "taxon_scientific_name": "Onthophagus histeriformis",
+      "red_list_category_code": "DD",
+      "assessment_id": 539958,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2014",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138345,
+      "url": "https://www.iucnredlist.org/species/138345/540088",
+      "taxon_scientific_name": "Onthophagus carinulatus",
+      "red_list_category_code": "DD",
+      "assessment_id": 540088,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138352,
+      "url": "https://www.iucnredlist.org/species/138352/540180",
+      "taxon_scientific_name": "Diorygopyx niger",
+      "red_list_category_code": "LC",
+      "assessment_id": 540180,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138356,
+      "url": "https://www.iucnredlist.org/species/138356/540236",
+      "taxon_scientific_name": "Onthophagus yaran",
+      "red_list_category_code": "LC",
+      "assessment_id": 540236,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138363,
+      "url": "https://www.iucnredlist.org/species/138363/540334",
+      "taxon_scientific_name": "Onthophagus punthari",
+      "red_list_category_code": "LC",
+      "assessment_id": 540334,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138365,
+      "url": "https://www.iucnredlist.org/species/138365/540362",
+      "taxon_scientific_name": "Lepanus bidentatus",
+      "red_list_category_code": "LC",
+      "assessment_id": 540362,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138370,
+      "url": "https://www.iucnredlist.org/species/138370/540432",
+      "taxon_scientific_name": "Onthophagus neostenocerus",
+      "red_list_category_code": "LC",
+      "assessment_id": 540432,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138379,
+      "url": "https://www.iucnredlist.org/species/138379/540558",
+      "taxon_scientific_name": "Onthophagus chepara",
+      "red_list_category_code": "LC",
+      "assessment_id": 540558,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138395,
+      "url": "https://www.iucnredlist.org/species/138395/540852",
+      "taxon_scientific_name": "Onthophagus queenslandicus",
+      "red_list_category_code": "LC",
+      "assessment_id": 540852,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138404,
+      "url": "https://www.iucnredlist.org/species/138404/540972",
+      "taxon_scientific_name": "Monoplistes tropicus",
+      "red_list_category_code": "LC",
+      "assessment_id": 540972,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138411,
+      "url": "https://www.iucnredlist.org/species/138411/541100",
+      "taxon_scientific_name": "Onthophagus rugosicollis",
+      "red_list_category_code": "DD",
+      "assessment_id": 541100,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138444,
+      "url": "https://www.iucnredlist.org/species/138444/541745",
+      "taxon_scientific_name": "Monoplistes occidentalis",
+      "red_list_category_code": "LC",
+      "assessment_id": 541745,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138485,
+      "url": "https://www.iucnredlist.org/species/138485/542408",
+      "taxon_scientific_name": "Lepanus villosus",
+      "red_list_category_code": "LC",
+      "assessment_id": 542408,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138486,
+      "url": "https://www.iucnredlist.org/species/138486/542422",
+      "taxon_scientific_name": "Demarziella tropicalis",
+      "red_list_category_code": "DD",
+      "assessment_id": 542422,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138498,
+      "url": "https://www.iucnredlist.org/species/138498/542638",
+      "taxon_scientific_name": "Onthophagus ferrari",
+      "red_list_category_code": "DD",
+      "assessment_id": 542638,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138499,
+      "url": "https://www.iucnredlist.org/species/138499/542652",
+      "taxon_scientific_name": "Lepanus ustulatus",
+      "red_list_category_code": "LC",
+      "assessment_id": 542652,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138510,
+      "url": "https://www.iucnredlist.org/species/138510/542806",
+      "taxon_scientific_name": "Coproecus hemisphaericus",
+      "red_list_category_code": "DD",
+      "assessment_id": 542806,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138515,
+      "url": "https://www.iucnredlist.org/species/138515/542937",
+      "taxon_scientific_name": "Temnoplectron boucomonti",
+      "red_list_category_code": "LC",
+      "assessment_id": 542937,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 138538,
+      "url": "https://www.iucnredlist.org/species/138538/543325",
+      "taxon_scientific_name": "Tesserodon feehani",
+      "red_list_category_code": "DD",
+      "assessment_id": 543325,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2014",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 14505,
+      "url": "https://www.iucnredlist.org/species/14505/545821",
+      "taxon_scientific_name": "Neochanna burrowsius",
+      "red_list_category_code": "CR",
+      "assessment_id": 545821,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2014",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 14506,
+      "url": "https://www.iucnredlist.org/species/14506/545893",
+      "taxon_scientific_name": "Neochanna diversus",
+      "red_list_category_code": "EN",
+      "assessment_id": 545893,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2014",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 14507,
+      "url": "https://www.iucnredlist.org/species/14507/545955",
+      "taxon_scientific_name": "Neochanna apoda",
+      "red_list_category_code": "EN",
+      "assessment_id": 545955,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2012",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 154855,
+      "url": "https://www.iucnredlist.org/species/154855/719858",
+      "taxon_scientific_name": "Hippichthys spicifer",
+      "red_list_category_code": "LC",
+      "assessment_id": 719858,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2012",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 154863,
+      "url": "https://www.iucnredlist.org/species/154863/720254",
+      "taxon_scientific_name": "Parioglossus taeniatus",
+      "red_list_category_code": "LC",
+      "assessment_id": 720254,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2012",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 154976,
+      "url": "https://www.iucnredlist.org/species/154976/722000",
+      "taxon_scientific_name": "Drombus halei",
+      "red_list_category_code": "LC",
+      "assessment_id": 722000,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2018",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 15511,
+      "url": "https://www.iucnredlist.org/species/15511/725553",
+      "taxon_scientific_name": "Ornithoptera aesacus",
+      "red_list_category_code": "VU",
+      "assessment_id": 725553,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2019",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 155130,
+      "url": "https://www.iucnredlist.org/species/155130/725623",
+      "taxon_scientific_name": "Caranx sexfasciatus",
+      "red_list_category_code": "LC",
+      "assessment_id": 725623,
+      "code": "2",
+      "code_type": "biogeographical_realm",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    }
+  ],
+  "filters": {}
+}

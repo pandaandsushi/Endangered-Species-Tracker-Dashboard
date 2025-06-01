@@ -1,0 +1,390 @@
+{
+  "assessments": [
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 184177,
+      "url": "https://www.iucnredlist.org/species/184177/1750659",
+      "taxon_scientific_name": "Discocactus subterraneo-proliferans",
+      "red_list_category_code": "CR",
+      "assessment_id": 1750659,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2020",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 152271,
+      "url": "https://www.iucnredlist.org/species/152271/183111992",
+      "taxon_scientific_name": "Cereus estevesii",
+      "red_list_category_code": "CR",
+      "assessment_id": 183111992,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2020",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 85999384,
+      "url": "https://www.iucnredlist.org/species/85999384/122414729",
+      "taxon_scientific_name": "Aloe bellatula",
+      "red_list_category_code": "CR",
+      "assessment_id": 122414729,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2015",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 78777144,
+      "url": "https://www.iucnredlist.org/species/78777144/78777147",
+      "taxon_scientific_name": "Cyanea grimesiana subsp. grimesiana",
+      "red_list_category_code": "CR",
+      "assessment_id": 78777147,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2018",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 99550575,
+      "url": "https://www.iucnredlist.org/species/99550575/99550795",
+      "taxon_scientific_name": "Hibiscus storckii",
+      "red_list_category_code": "CR",
+      "assessment_id": 99550795,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2022",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 168644694,
+      "url": "https://www.iucnredlist.org/species/168644694/168907959",
+      "taxon_scientific_name": "Calophyllum calcicola",
+      "red_list_category_code": "CR",
+      "assessment_id": 168907959,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2020",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 126299772,
+      "url": "https://www.iucnredlist.org/species/126299772/126300661",
+      "taxon_scientific_name": "Crossopetalum glabrum",
+      "red_list_category_code": "CR",
+      "assessment_id": 126300661,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2025",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 45108,
+      "url": "https://www.iucnredlist.org/species/45108/228546113",
+      "taxon_scientific_name": "Clusia skotaster",
+      "red_list_category_code": "CR",
+      "assessment_id": 228546113,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2015",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 80174575,
+      "url": "https://www.iucnredlist.org/species/80174575/80174614",
+      "taxon_scientific_name": "Phyllostegia parviflora var. lydgatei",
+      "red_list_category_code": "CR",
+      "assessment_id": 80174614,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2022",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 41883,
+      "url": "https://www.iucnredlist.org/species/41883/243424414",
+      "taxon_scientific_name": "Encephalartos cerinus",
+      "red_list_category_code": "CR",
+      "assessment_id": 243424414,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2020",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 85998435,
+      "url": "https://www.iucnredlist.org/species/85998435/100531854",
+      "taxon_scientific_name": "Aloe ambositrae",
+      "red_list_category_code": "CR",
+      "assessment_id": 100531854,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2020",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 44316,
+      "url": "https://www.iucnredlist.org/species/44316/153299699",
+      "taxon_scientific_name": "Euphorbia capuronii",
+      "red_list_category_code": "CR",
+      "assessment_id": 153299699,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2019",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 31866,
+      "url": "https://www.iucnredlist.org/species/31866/137452327",
+      "taxon_scientific_name": "Alangium circulare",
+      "red_list_category_code": "CR",
+      "assessment_id": 137452327,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2022",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 182572773,
+      "url": "https://www.iucnredlist.org/species/182572773/182572813",
+      "taxon_scientific_name": "Acipenser oxyrinchus Baltic Sea subpopulation",
+      "red_list_category_code": "CR",
+      "assessment_id": 182572813,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        },
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2020",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 105181449,
+      "url": "https://www.iucnredlist.org/species/105181449/173927929",
+      "taxon_scientific_name": "Gossypium armourianum",
+      "red_list_category_code": "CR",
+      "assessment_id": 173927929,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2018",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 124306529,
+      "url": "https://www.iucnredlist.org/species/124306529/124306532",
+      "taxon_scientific_name": "Coffea heterocalyx",
+      "red_list_category_code": "CR",
+      "assessment_id": 124306532,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2022",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 202869513,
+      "url": "https://www.iucnredlist.org/species/202869513/202871623",
+      "taxon_scientific_name": "Conophytum herreanthus subsp. herreanthus",
+      "red_list_category_code": "CR",
+      "assessment_id": 202871623,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2020",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 110052848,
+      "url": "https://www.iucnredlist.org/species/110052848/110112691",
+      "taxon_scientific_name": "Aloe edouardii",
+      "red_list_category_code": "CR",
+      "assessment_id": 110112691,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2022",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 41889,
+      "url": "https://www.iucnredlist.org/species/41889/51056445",
+      "taxon_scientific_name": "Encephalartos hirsutus",
+      "red_list_category_code": "CR",
+      "assessment_id": 51056445,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2020",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": true,
+      "sis_taxon_id": 85998416,
+      "url": "https://www.iucnredlist.org/species/85998416/100531604",
+      "taxon_scientific_name": "Aloe albiflora",
+      "red_list_category_code": "CR",
+      "assessment_id": 100531604,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    }
+  ]
+}

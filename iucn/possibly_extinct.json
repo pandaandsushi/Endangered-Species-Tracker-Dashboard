@@ -1,0 +1,414 @@
+{
+  "assessments": [
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 179304,
+      "url": "https://www.iucnredlist.org/species/179304/1574578",
+      "taxon_scientific_name": "Blotiella coriacea",
+      "red_list_category_code": "CR",
+      "assessment_id": 1574578,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 179359,
+      "url": "https://www.iucnredlist.org/species/179359/1576191",
+      "taxon_scientific_name": "Diplazium ulugurense",
+      "red_list_category_code": "CR",
+      "assessment_id": 1576191,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2020",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 158003,
+      "url": "https://www.iucnredlist.org/species/158003/756495",
+      "taxon_scientific_name": "Plumbago ciliata",
+      "red_list_category_code": "CR",
+      "assessment_id": 756495,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 179777,
+      "url": "https://www.iucnredlist.org/species/179777/1589760",
+      "taxon_scientific_name": "Dorstenia bicaudata",
+      "red_list_category_code": "CR",
+      "assessment_id": 1589760,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2014",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 189361,
+      "url": "https://www.iucnredlist.org/species/189361/21401592",
+      "taxon_scientific_name": "Melanopsis pachya",
+      "red_list_category_code": "CR",
+      "assessment_id": 21401592,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        },
+        {
+          "description": {
+            "en": "Mediterranean"
+          },
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "year_published": "2003",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 43983,
+      "url": "https://www.iucnredlist.org/species/43983/10836398",
+      "taxon_scientific_name": "Bulimulus achatellinus",
+      "red_list_category_code": "CR",
+      "assessment_id": 10836398,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2016",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 103636653,
+      "url": "https://www.iucnredlist.org/species/103636653/110380358",
+      "taxon_scientific_name": "Albuca nana",
+      "red_list_category_code": "CR",
+      "assessment_id": 110380358,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2014",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 19449338,
+      "url": "https://www.iucnredlist.org/species/19449338/19848526",
+      "taxon_scientific_name": "Rutilus sojuchbulagi",
+      "red_list_category_code": "CR",
+      "assessment_id": 19848526,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2022",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 158425,
+      "url": "https://www.iucnredlist.org/species/158425/776506",
+      "taxon_scientific_name": "Ipomoea lapathifolia var. bussei",
+      "red_list_category_code": "CR",
+      "assessment_id": 776506,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 155659,
+      "url": "https://www.iucnredlist.org/species/155659/4816346",
+      "taxon_scientific_name": "Euglesa nitida",
+      "red_list_category_code": "CR",
+      "assessment_id": 4816346,
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        },
+        {
+          "description": {
+            "en": "Pan-Africa"
+          },
+          "code": "10"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 180034,
+      "url": "https://www.iucnredlist.org/species/180034/1599349",
+      "taxon_scientific_name": "Turraea mombassana subsp. schliebenii",
+      "red_list_category_code": "CR",
+      "assessment_id": 1599349,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2020",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 45216,
+      "url": "https://www.iucnredlist.org/species/45216/173543082",
+      "taxon_scientific_name": "Clitoria andrei",
+      "red_list_category_code": "CR",
+      "assessment_id": 173543082,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2003",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 43616,
+      "url": "https://www.iucnredlist.org/species/43616/10815669",
+      "taxon_scientific_name": "Ctenitis palatangana",
+      "red_list_category_code": "CR",
+      "assessment_id": 10815669,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2016",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 103635021,
+      "url": "https://www.iucnredlist.org/species/103635021/104108129",
+      "taxon_scientific_name": "Athanasia imbricata",
+      "red_list_category_code": "CR",
+      "assessment_id": 104108129,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2014",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 20593649,
+      "url": "https://www.iucnredlist.org/species/20593649/42422280",
+      "taxon_scientific_name": "Melanopsis khabourensis",
+      "red_list_category_code": "CR",
+      "assessment_id": 42422280,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        },
+        {
+          "description": {
+            "en": "Mediterranean"
+          },
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "year_published": "2012",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 22423,
+      "url": "https://www.iucnredlist.org/species/22423/2782410",
+      "taxon_scientific_name": "Juturnia brunei",
+      "red_list_category_code": "CR",
+      "assessment_id": 2782410,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2000",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 20349,
+      "url": "https://www.iucnredlist.org/species/20349/9189780",
+      "taxon_scientific_name": "Somatogyrus crassus",
+      "red_list_category_code": "CR",
+      "assessment_id": 9189780,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2015",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 202716,
+      "url": "https://www.iucnredlist.org/species/202716/2748094",
+      "taxon_scientific_name": "Stereospermum zenkeri",
+      "red_list_category_code": "CR",
+      "assessment_id": 2748094,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2013",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 35415,
+      "url": "https://www.iucnredlist.org/species/35415/2859029",
+      "taxon_scientific_name": "Lijndenia brenanii",
+      "red_list_category_code": "CR",
+      "assessment_id": 2859029,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": true,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 185846,
+      "url": "https://www.iucnredlist.org/species/185846/8490168",
+      "taxon_scientific_name": "Haplochromis antleter",
+      "red_list_category_code": "CR",
+      "assessment_id": 8490168,
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        },
+        {
+          "description": {
+            "en": "Eastern Africa"
+          },
+          "code": "18"
+        },
+        {
+          "description": {
+            "en": "Pan-Africa"
+          },
+          "code": "10"
+        }
+      ]
+    }
+  ]
+}
