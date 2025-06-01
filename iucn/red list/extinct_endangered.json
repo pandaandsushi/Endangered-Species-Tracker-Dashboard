@@ -1,0 +1,686 @@
+{
+  "red_list_category": [
+    {
+      "version": "Earlier Version",
+      "description": {
+        "en": "Extinct/Endangered"
+      },
+      "code": "Ex/E"
+    }
+  ],
+  "assessments": [
+    {
+      "year_published": "1986",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 16272,
+      "url": "https://www.iucnredlist.org/species/16272/5594766",
+      "taxon_scientific_name": "Partula aurantia",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 5594766,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 177033,
+      "url": "https://www.iucnredlist.org/species/177033/7362267",
+      "taxon_scientific_name": "Eriocaulon barbeyanum",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 7362267,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 191546,
+      "url": "https://www.iucnredlist.org/species/191546/8844028",
+      "taxon_scientific_name": "Vernonia sechellensis",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8844028,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 191709,
+      "url": "https://www.iucnredlist.org/species/191709/8847098",
+      "taxon_scientific_name": "Paphiopedilum delenatii",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8847098,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1997",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 193438,
+      "url": "https://www.iucnredlist.org/species/193438/8860686",
+      "taxon_scientific_name": "Oeceoclades seychellarum",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8860686,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195890,
+      "url": "https://www.iucnredlist.org/species/195890/8983332",
+      "taxon_scientific_name": "Dypsis soanieranae",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8983332,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195931,
+      "url": "https://www.iucnredlist.org/species/195931/8984407",
+      "taxon_scientific_name": "Dypsis pulchella",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8984407,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195934,
+      "url": "https://www.iucnredlist.org/species/195934/8984479",
+      "taxon_scientific_name": "Dypsis bosseri",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8984479,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195944,
+      "url": "https://www.iucnredlist.org/species/195944/8985059",
+      "taxon_scientific_name": "Dypsis lucens",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8985059,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195947,
+      "url": "https://www.iucnredlist.org/species/195947/8985131",
+      "taxon_scientific_name": "Dypsis linearis",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8985131,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195952,
+      "url": "https://www.iucnredlist.org/species/195952/8985502",
+      "taxon_scientific_name": "Dypsis betamponensis",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8985502,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195959,
+      "url": "https://www.iucnredlist.org/species/195959/8985622",
+      "taxon_scientific_name": "Dypsis lanuginosa",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8985622,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195962,
+      "url": "https://www.iucnredlist.org/species/195962/8986052",
+      "taxon_scientific_name": "Dypsis tanalensis",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8986052,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195964,
+      "url": "https://www.iucnredlist.org/species/195964/8986100",
+      "taxon_scientific_name": "Dypsis plurisecta",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8986100,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195968,
+      "url": "https://www.iucnredlist.org/species/195968/8986124",
+      "taxon_scientific_name": "Dypsis pervillei",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8986124,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195975,
+      "url": "https://www.iucnredlist.org/species/195975/8986540",
+      "taxon_scientific_name": "Dypsis furcata",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8986540,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195976,
+      "url": "https://www.iucnredlist.org/species/195976/8986564",
+      "taxon_scientific_name": "Dypsis remotiflora",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8986564,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195989,
+      "url": "https://www.iucnredlist.org/species/195989/8986756",
+      "taxon_scientific_name": "Dypsis acaulis",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8986756,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 195990,
+      "url": "https://www.iucnredlist.org/species/195990/8987980",
+      "taxon_scientific_name": "Dypsis monostachya",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 8987980,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 33635,
+      "url": "https://www.iucnredlist.org/species/33635/9799506",
+      "taxon_scientific_name": "Quercus boyntonii",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 9799506,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 38516,
+      "url": "https://www.iucnredlist.org/species/38516/10126728",
+      "taxon_scientific_name": "Dypsis ambanjae",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 10126728,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 38524,
+      "url": "https://www.iucnredlist.org/species/38524/10128996",
+      "taxon_scientific_name": "Dypsis canaliculata",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 10128996,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 38525,
+      "url": "https://www.iucnredlist.org/species/38525/10129153",
+      "taxon_scientific_name": "Dypsis canescens",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 10129153,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 38526,
+      "url": "https://www.iucnredlist.org/species/38526/10129268",
+      "taxon_scientific_name": "Dypsis ceracea",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 10129268,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 38542,
+      "url": "https://www.iucnredlist.org/species/38542/10133245",
+      "taxon_scientific_name": "Dypsis ligulata",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 10133245,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 43919,
+      "url": "https://www.iucnredlist.org/species/43919/10838112",
+      "taxon_scientific_name": "Anogramma ascensionis",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 10838112,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 43920,
+      "url": "https://www.iucnredlist.org/species/43920/10838548",
+      "taxon_scientific_name": "Dryopteris ascensionis",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 10838548,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 43927,
+      "url": "https://www.iucnredlist.org/species/43927/10840525",
+      "taxon_scientific_name": "Sporobolus durus",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 10840525,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1978",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 44010,
+      "url": "https://www.iucnredlist.org/species/44010/10848917",
+      "taxon_scientific_name": "Wahlenbergia linifolia",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 10848917,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 63512,
+      "url": "https://www.iucnredlist.org/species/63512/12684498",
+      "taxon_scientific_name": "Sorbaria olgae",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 12684498,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 14671042,
+      "url": "https://www.iucnredlist.org/species/14671042/14671045",
+      "taxon_scientific_name": "Comocladia undulata",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 14671045,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    },
+    {
+      "year_published": "1998",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 56499847,
+      "url": "https://www.iucnredlist.org/species/56499847/57487127",
+      "taxon_scientific_name": "Aegiphila caymanensis",
+      "red_list_category_code": "Ex/E",
+      "assessment_id": 57487127,
+      "code": "Ex/E",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    }
+  ],
+  "filters": {}
+}

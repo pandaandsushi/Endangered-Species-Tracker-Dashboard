@@ -1,0 +1,1316 @@
+{
+  "red_list_category": [
+    {
+      "version": "3.1",
+      "description": {
+        "en": "Regionally Extinct"
+      },
+      "code": "RE"
+    }
+  ],
+  "assessments": [
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 10103,
+      "url": "https://www.iucnredlist.org/species/10103/3163374",
+      "taxon_scientific_name": "Hippopotamus amphibius",
+      "red_list_category_code": "RE",
+      "assessment_id": 3163374,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Mediterranean"
+          },
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 15568,
+      "url": "https://www.iucnredlist.org/species/15568/4822507",
+      "taxon_scientific_name": "Oryx dammah",
+      "red_list_category_code": "RE",
+      "assessment_id": 4822507,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Mediterranean"
+          },
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 155719,
+      "url": "https://www.iucnredlist.org/species/155719/4830127",
+      "taxon_scientific_name": "Pisidium amnicum",
+      "red_list_category_code": "RE",
+      "assessment_id": 4830127,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Pan-Africa"
+          },
+          "code": "10"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 155719,
+      "url": "https://www.iucnredlist.org/species/155719/4830241",
+      "taxon_scientific_name": "Pisidium amnicum",
+      "red_list_category_code": "RE",
+      "assessment_id": 4830241,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 155796,
+      "url": "https://www.iucnredlist.org/species/155796/4844629",
+      "taxon_scientific_name": "Bithynia tentaculata",
+      "red_list_category_code": "RE",
+      "assessment_id": 4844629,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Pan-Africa"
+          },
+          "code": "10"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 155796,
+      "url": "https://www.iucnredlist.org/species/155796/4844716",
+      "taxon_scientific_name": "Bithynia tentaculata",
+      "red_list_category_code": "RE",
+      "assessment_id": 4844716,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 15951,
+      "url": "https://www.iucnredlist.org/species/15951/5325996",
+      "taxon_scientific_name": "Panthera leo",
+      "red_list_category_code": "RE",
+      "assessment_id": 5325996,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Mediterranean"
+          },
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 15955,
+      "url": "https://www.iucnredlist.org/species/15955/5330476",
+      "taxon_scientific_name": "Panthera tigris",
+      "red_list_category_code": "RE",
+      "assessment_id": 5330476,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Mediterranean"
+          },
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 164490,
+      "url": "https://www.iucnredlist.org/species/164490/5890570",
+      "taxon_scientific_name": "Laurembergia tetrandra",
+      "red_list_category_code": "RE",
+      "assessment_id": 5890570,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Mediterranean"
+          },
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 155568,
+      "url": "https://www.iucnredlist.org/species/155568/6263369",
+      "taxon_scientific_name": "Radix auricularia",
+      "red_list_category_code": "RE",
+      "assessment_id": 6263369,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Pan-Africa"
+          },
+          "code": "10"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 155568,
+      "url": "https://www.iucnredlist.org/species/155568/6263482",
+      "taxon_scientific_name": "Radix auricularia",
+      "red_list_category_code": "RE",
+      "assessment_id": 6263482,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2011",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 172217,
+      "url": "https://www.iucnredlist.org/species/172217/6851440",
+      "taxon_scientific_name": "Allium jubatum",
+      "red_list_category_code": "RE",
+      "assessment_id": 6851440,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 174305,
+      "url": "https://www.iucnredlist.org/species/174305/7047247",
+      "taxon_scientific_name": "Aricia hyacinthus",
+      "red_list_category_code": "RE",
+      "assessment_id": 7047247,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 181642,
+      "url": "https://www.iucnredlist.org/species/181642/7695574",
+      "taxon_scientific_name": "Nannocharax niloticus",
+      "red_list_category_code": "RE",
+      "assessment_id": 7695574,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 181685,
+      "url": "https://www.iucnredlist.org/species/181685/7705034",
+      "taxon_scientific_name": "Siluranodon auritus",
+      "red_list_category_code": "RE",
+      "assessment_id": 7705034,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182292,
+      "url": "https://www.iucnredlist.org/species/182292/7851876",
+      "taxon_scientific_name": "Mormyrus hasselquistii",
+      "red_list_category_code": "RE",
+      "assessment_id": 7851876,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182453,
+      "url": "https://www.iucnredlist.org/species/182453/7887617",
+      "taxon_scientific_name": "Micralestes acutidens",
+      "red_list_category_code": "RE",
+      "assessment_id": 7887617,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182513,
+      "url": "https://www.iucnredlist.org/species/182513/7901828",
+      "taxon_scientific_name": "Enteromius neglectus",
+      "red_list_category_code": "RE",
+      "assessment_id": 7901828,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182567,
+      "url": "https://www.iucnredlist.org/species/182567/7914576",
+      "taxon_scientific_name": "Distichodus engycephalus",
+      "red_list_category_code": "RE",
+      "assessment_id": 7914576,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182568,
+      "url": "https://www.iucnredlist.org/species/182568/7915559",
+      "taxon_scientific_name": "Alestes baremoze",
+      "red_list_category_code": "RE",
+      "assessment_id": 7915559,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182570,
+      "url": "https://www.iucnredlist.org/species/182570/7917229",
+      "taxon_scientific_name": "Synodontis membranaceus",
+      "red_list_category_code": "RE",
+      "assessment_id": 7917229,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182580,
+      "url": "https://www.iucnredlist.org/species/182580/7919422",
+      "taxon_scientific_name": "Heterotis niloticus",
+      "red_list_category_code": "RE",
+      "assessment_id": 7919422,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182658,
+      "url": "https://www.iucnredlist.org/species/182658/7936963",
+      "taxon_scientific_name": "Hydrocynus brevis",
+      "red_list_category_code": "RE",
+      "assessment_id": 7936963,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182816,
+      "url": "https://www.iucnredlist.org/species/182816/7976113",
+      "taxon_scientific_name": "Brycinus macrolepidotus",
+      "red_list_category_code": "RE",
+      "assessment_id": 7976113,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182860,
+      "url": "https://www.iucnredlist.org/species/182860/7988143",
+      "taxon_scientific_name": "Distichodus rostratus",
+      "red_list_category_code": "RE",
+      "assessment_id": 7988143,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182924,
+      "url": "https://www.iucnredlist.org/species/182924/8003257",
+      "taxon_scientific_name": "Enteromius anema",
+      "red_list_category_code": "RE",
+      "assessment_id": 8003257,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182948,
+      "url": "https://www.iucnredlist.org/species/182948/8009230",
+      "taxon_scientific_name": "Mormyrus niloticus",
+      "red_list_category_code": "RE",
+      "assessment_id": 8009230,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 182446,
+      "url": "https://www.iucnredlist.org/species/182446/8499680",
+      "taxon_scientific_name": "Synodontis batensoda",
+      "red_list_category_code": "RE",
+      "assessment_id": 8499680,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 41248,
+      "url": "https://www.iucnredlist.org/species/41248/10423658",
+      "taxon_scientific_name": "Micropanchax loati",
+      "red_list_category_code": "RE",
+      "assessment_id": 10423658,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 59800,
+      "url": "https://www.iucnredlist.org/species/59800/12020455",
+      "taxon_scientific_name": "Agriocnemis exilis",
+      "red_list_category_code": "RE",
+      "assessment_id": 12020455,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 59806,
+      "url": "https://www.iucnredlist.org/species/59806/12030956",
+      "taxon_scientific_name": "Agriocnemis sania",
+      "red_list_category_code": "RE",
+      "assessment_id": 12030956,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 59828,
+      "url": "https://www.iucnredlist.org/species/59828/12077064",
+      "taxon_scientific_name": "Ceriagrion glabrum",
+      "red_list_category_code": "RE",
+      "assessment_id": 12077064,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 59997,
+      "url": "https://www.iucnredlist.org/species/59997/12161782",
+      "taxon_scientific_name": "Phyllomacromia picta",
+      "red_list_category_code": "RE",
+      "assessment_id": 12161782,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 60037,
+      "url": "https://www.iucnredlist.org/species/60037/12261765",
+      "taxon_scientific_name": "Rhyothemis semihyalina",
+      "red_list_category_code": "RE",
+      "assessment_id": 12261765,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 60359,
+      "url": "https://www.iucnredlist.org/species/60359/12338751",
+      "taxon_scientific_name": "Clarotes laticeps",
+      "red_list_category_code": "RE",
+      "assessment_id": 12338751,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 6232,
+      "url": "https://www.iucnredlist.org/species/6232/12586641",
+      "taxon_scientific_name": "Dama mesopotamica",
+      "red_list_category_code": "RE",
+      "assessment_id": 12586641,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Mediterranean"
+          },
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "year_published": "2007",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 8097,
+      "url": "https://www.iucnredlist.org/species/8097/12885185",
+      "taxon_scientific_name": "Eschrichtius robustus",
+      "red_list_category_code": "RE",
+      "assessment_id": 12885185,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 512,
+      "url": "https://www.iucnredlist.org/species/512/13058238",
+      "taxon_scientific_name": "Addax nasomaculatus",
+      "red_list_category_code": "RE",
+      "assessment_id": 13058238,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Mediterranean"
+          },
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 811,
+      "url": "https://www.iucnredlist.org/species/811/13081096",
+      "taxon_scientific_name": "Alcelaphus buselaphus",
+      "red_list_category_code": "RE",
+      "assessment_id": 13081096,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Mediterranean"
+          },
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 903,
+      "url": "https://www.iucnredlist.org/species/903/13090693",
+      "taxon_scientific_name": "Alosa alosa",
+      "red_list_category_code": "RE",
+      "assessment_id": 13090693,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2010",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 904,
+      "url": "https://www.iucnredlist.org/species/904/13091735",
+      "taxon_scientific_name": "Alosa fallax",
+      "red_list_category_code": "RE",
+      "assessment_id": 13091735,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Northern Africa"
+          },
+          "code": "21"
+        }
+      ]
+    },
+    {
+      "year_published": "2015",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 22693868,
+      "url": "https://www.iucnredlist.org/species/22693868/60070844",
+      "taxon_scientific_name": "Charadrius asiaticus",
+      "red_list_category_code": "RE",
+      "assessment_id": 60070844,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2015",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 22696705,
+      "url": "https://www.iucnredlist.org/species/22696705/60149255",
+      "taxon_scientific_name": "Anhinga rufa",
+      "red_list_category_code": "RE",
+      "assessment_id": 60149255,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2015",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 22697488,
+      "url": "https://www.iucnredlist.org/species/22697488/60163925",
+      "taxon_scientific_name": "Geronticus eremita",
+      "red_list_category_code": "RE",
+      "assessment_id": 60163925,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2015",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 103872996,
+      "url": "https://www.iucnredlist.org/species/103872996/60248030",
+      "taxon_scientific_name": "Curruca nana",
+      "red_list_category_code": "RE",
+      "assessment_id": 60248030,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2017",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 83650642,
+      "url": "https://www.iucnredlist.org/species/83650642/85447682",
+      "taxon_scientific_name": "Grammitis quaerenda",
+      "red_list_category_code": "RE",
+      "assessment_id": 85447682,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2019",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 83660210,
+      "url": "https://www.iucnredlist.org/species/83660210/87712661",
+      "taxon_scientific_name": "Brachymenium philonotula",
+      "red_list_category_code": "RE",
+      "assessment_id": 87712661,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2019",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 84516669,
+      "url": "https://www.iucnredlist.org/species/84516669/87730771",
+      "taxon_scientific_name": "Riella parisii",
+      "red_list_category_code": "RE",
+      "assessment_id": 87730771,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2019",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 84316348,
+      "url": "https://www.iucnredlist.org/species/84316348/87755740",
+      "taxon_scientific_name": "Mnium heterophyllum",
+      "red_list_category_code": "RE",
+      "assessment_id": 87755740,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2019",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 87539199,
+      "url": "https://www.iucnredlist.org/species/87539199/87756490",
+      "taxon_scientific_name": "Orthotrichum callistomum",
+      "red_list_category_code": "RE",
+      "assessment_id": 87756490,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2019",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 87576160,
+      "url": "https://www.iucnredlist.org/species/87576160/87771485",
+      "taxon_scientific_name": "Helicodontium capillare",
+      "red_list_category_code": "RE",
+      "assessment_id": 87771485,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2019",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 88150657,
+      "url": "https://www.iucnredlist.org/species/88150657/88382504",
+      "taxon_scientific_name": "Clasmatodon parvulus",
+      "red_list_category_code": "RE",
+      "assessment_id": 88382504,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2015",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 22693868,
+      "url": "https://www.iucnredlist.org/species/22693868/103960972",
+      "taxon_scientific_name": "Charadrius asiaticus",
+      "red_list_category_code": "RE",
+      "assessment_id": 103960972,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2021",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 149163742,
+      "url": "https://www.iucnredlist.org/species/149163742/152281590",
+      "taxon_scientific_name": "Helophilus bottnicus",
+      "red_list_category_code": "RE",
+      "assessment_id": 152281590,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2021",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 22680500,
+      "url": "https://www.iucnredlist.org/species/22680500/166212521",
+      "taxon_scientific_name": "Turnix sylvaticus",
+      "red_list_category_code": "RE",
+      "assessment_id": 166212521,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2021",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 22692980,
+      "url": "https://www.iucnredlist.org/species/22692980/166240632",
+      "taxon_scientific_name": "Syrrhaptes paradoxus",
+      "red_list_category_code": "RE",
+      "assessment_id": 166240632,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2021",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 22696705,
+      "url": "https://www.iucnredlist.org/species/22696705/166315145",
+      "taxon_scientific_name": "Anhinga rufa",
+      "red_list_category_code": "RE",
+      "assessment_id": 166315145,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2021",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 22697488,
+      "url": "https://www.iucnredlist.org/species/22697488/166323139",
+      "taxon_scientific_name": "Geronticus eremita",
+      "red_list_category_code": "RE",
+      "assessment_id": 166323139,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2021",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 22720881,
+      "url": "https://www.iucnredlist.org/species/22720881/166420913",
+      "taxon_scientific_name": "Emberiza leucocephalos",
+      "red_list_category_code": "RE",
+      "assessment_id": 166420913,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2022",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 22695425,
+      "url": "https://www.iucnredlist.org/species/22695425/208740428",
+      "taxon_scientific_name": "Melierax metabates",
+      "red_list_category_code": "RE",
+      "assessment_id": 208740428,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Mediterranean"
+          },
+          "code": "4"
+        }
+      ]
+    },
+    {
+      "year_published": "2023",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 8097,
+      "url": "https://www.iucnredlist.org/species/8097/213296952",
+      "taxon_scientific_name": "Eschrichtius robustus",
+      "red_list_category_code": "RE",
+      "assessment_id": 213296952,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    },
+    {
+      "year_published": "2024",
+      "latest": true,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 135684,
+      "url": "https://www.iucnredlist.org/species/135684/221195462",
+      "taxon_scientific_name": "Luciobarbus brachycephalus",
+      "red_list_category_code": "RE",
+      "assessment_id": 221195462,
+      "code": "RE",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Europe"
+          },
+          "code": "2"
+        }
+      ]
+    }
+  ],
+  "filters": {}
+}

@@ -1,0 +1,35 @@
+{
+  "red_list_category": [
+    {
+      "version": "Earlier Version",
+      "description": {
+        "en": "Abundant"
+      },
+      "code": "A"
+    }
+  ],
+  "assessments": [
+    {
+      "year_published": "1990",
+      "latest": false,
+      "possibly_extinct": false,
+      "possibly_extinct_in_the_wild": false,
+      "sis_taxon_id": 13323,
+      "url": "https://www.iucnredlist.org/species/13323/3642907",
+      "taxon_scientific_name": "Microcebus murinus",
+      "red_list_category_code": "A",
+      "assessment_id": 3642907,
+      "code": "A",
+      "code_type": "red_list_category",
+      "scopes": [
+        {
+          "description": {
+            "en": "Global"
+          },
+          "code": "1"
+        }
+      ]
+    }
+  ],
+  "filters": {}
+}
