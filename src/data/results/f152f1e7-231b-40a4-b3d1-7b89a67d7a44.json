@@ -1,0 +1,129 @@
+{
+  "query_species": "Rattus norvegicus",
+  "search_results": [
+    {
+      "name": "gi|225622213|ref|NC_012374.1| Rattus",
+      "status": "DD",
+      "alignment": "90.2%",
+      "metadata": {
+        "accession": "NC_012374",
+        "bit_score": 24515.0,
+        "e_value": "0.00e+00",
+        "identity": "90.2%",
+        "sequence_length": 16305
+      }
+    },
+    {
+      "name": "gi|1197988703|gb|KY018920.1| Mus",
+      "status": "DD",
+      "alignment": "82.9%",
+      "metadata": {
+        "accession": "KY018920",
+        "bit_score": 18395.0,
+        "e_value": "0.00e+00",
+        "identity": "82.9%",
+        "sequence_length": 16299
+      }
+    },
+    {
+      "name": "gi|457866476|dbj|AP013030.1| Mus",
+      "status": "DD",
+      "alignment": "82.7%",
+      "metadata": {
+        "accession": "AP013030",
+        "bit_score": 18207.0,
+        "e_value": "0.00e+00",
+        "identity": "82.7%",
+        "sequence_length": 16301
+      }
+    },
+    {
+      "name": "gi|2327616453|gb|OM948981.1| Mus",
+      "status": "DD",
+      "alignment": "82.7%",
+      "metadata": {
+        "accession": "OM948981",
+        "bit_score": 18209.0,
+        "e_value": "0.00e+00",
+        "identity": "82.7%",
+        "sequence_length": 16300
+      }
+    },
+    {
+      "name": "gi|482427243|dbj|AP013054.1| Mus",
+      "status": "DD",
+      "alignment": "82.7%",
+      "metadata": {
+        "accession": "AP013054",
+        "bit_score": 18211.0,
+        "e_value": "0.00e+00",
+        "identity": "82.7%",
+        "sequence_length": 16299
+      }
+    },
+    {
+      "name": "gi|62461709|gb|AY999076.1| Mus",
+      "status": "DD",
+      "alignment": "82.7%",
+      "metadata": {
+        "accession": "AY999076",
+        "bit_score": 18207.0,
+        "e_value": "0.00e+00",
+        "identity": "82.7%",
+        "sequence_length": 16301
+      }
+    },
+    {
+      "name": "gi|34556005|emb|AJ512208.1| Mus",
+      "status": "DD",
+      "alignment": "82.7%",
+      "metadata": {
+        "accession": "AJ512208",
+        "bit_score": 18204.0,
+        "e_value": "0.00e+00",
+        "identity": "82.7%",
+        "sequence_length": 16300
+      }
+    },
+    {
+      "name": "gi|161824319|gb|EU312160.1| Mus",
+      "status": "DD",
+      "alignment": "82.7%",
+      "metadata": {
+        "accession": "EU312160",
+        "bit_score": 18199.0,
+        "e_value": "0.00e+00",
+        "identity": "82.7%",
+        "sequence_length": 16300
+      }
+    }
+  ],
+  "phylogenetic_tree": {
+    "error": "Alignment creation failed: Sequences must all be the same length",
+    "method": "failed",
+    "tree_data": {}
+  },
+  "tree_image": null,
+  "metadata": {
+    "query_species": {
+      "name": "Rattus norvegicus",
+      "status": "Query Species",
+      "accession": "NC_001665.2",
+      "sequence_length": 16313
+    },
+    "search_parameters": {
+      "gene": "COI",
+      "max_results": 8,
+      "min_similarity": 0.75
+    },
+    "results_summary": {
+      "total_found": 8,
+      "search_method": "NCBI BLAST (real data)",
+      "tree_method": "failed"
+    }
+  },
+  "timestamp": "fixed_real_data",
+  "id": "f152f1e7-231b-40a4-b3d1-7b89a67d7a44",
+  "created_at": "2025-06-03T22:27:49.154466",
+  "version": "1.0"
+}

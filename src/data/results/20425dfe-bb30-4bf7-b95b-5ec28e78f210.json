@@ -1,0 +1,129 @@
+{
+  "query_species": "Panthera leo",
+  "search_results": [
+    {
+      "name": "gi|2303549188|gb|MZ099334.1| Panthera",
+      "status": "DD",
+      "alignment": "99.5%",
+      "metadata": {
+        "accession": "MZ099334",
+        "bit_score": 1143.0,
+        "e_value": "0.00e+00",
+        "identity": "99.5%",
+        "sequence_length": 662
+      }
+    },
+    {
+      "name": "gi|2303549187|gb|MZ099333.1| Panthera",
+      "status": "DD",
+      "alignment": "99.5%",
+      "metadata": {
+        "accession": "MZ099333",
+        "bit_score": 1137.0,
+        "e_value": "0.00e+00",
+        "identity": "99.5%",
+        "sequence_length": 663
+      }
+    },
+    {
+      "name": "gi|2303549444|gb|MZ099448.1| Panthera",
+      "status": "DD",
+      "alignment": "99.5%",
+      "metadata": {
+        "accession": "MZ099448",
+        "bit_score": 1137.0,
+        "e_value": "0.00e+00",
+        "identity": "99.5%",
+        "sequence_length": 663
+      }
+    },
+    {
+      "name": "gi|2303549441|gb|MZ099445.1| Panthera",
+      "status": "DD",
+      "alignment": "99.5%",
+      "metadata": {
+        "accession": "MZ099445",
+        "bit_score": 1137.0,
+        "e_value": "0.00e+00",
+        "identity": "99.5%",
+        "sequence_length": 663
+      }
+    },
+    {
+      "name": "gi|2303549061|gb|MZ099234.1| Panthera",
+      "status": "DD",
+      "alignment": "99.5%",
+      "metadata": {
+        "accession": "MZ099234",
+        "bit_score": 1137.0,
+        "e_value": "0.00e+00",
+        "identity": "99.5%",
+        "sequence_length": 663
+      }
+    },
+    {
+      "name": "gi|2303549062|gb|MZ099235.1| Panthera",
+      "status": "DD",
+      "alignment": "99.5%",
+      "metadata": {
+        "accession": "MZ099235",
+        "bit_score": 1137.0,
+        "e_value": "0.00e+00",
+        "identity": "99.5%",
+        "sequence_length": 663
+      }
+    },
+    {
+      "name": "gi|2303549059|gb|MZ099232.1| Panthera",
+      "status": "DD",
+      "alignment": "99.5%",
+      "metadata": {
+        "accession": "MZ099232",
+        "bit_score": 1137.0,
+        "e_value": "0.00e+00",
+        "identity": "99.5%",
+        "sequence_length": 663
+      }
+    },
+    {
+      "name": "gi|2303549439|gb|MZ099443.1| Panthera",
+      "status": "DD",
+      "alignment": "99.5%",
+      "metadata": {
+        "accession": "MZ099443",
+        "bit_score": 1137.0,
+        "e_value": "0.00e+00",
+        "identity": "99.5%",
+        "sequence_length": 663
+      }
+    }
+  ],
+  "phylogenetic_tree": {
+    "error": "Alignment creation failed: Sequences must all be the same length",
+    "method": "failed",
+    "tree_data": {}
+  },
+  "tree_image": null,
+  "metadata": {
+    "query_species": {
+      "name": "Panthera leo",
+      "status": "Query Species",
+      "accession": "MN124275.1",
+      "sequence_length": 581
+    },
+    "search_parameters": {
+      "gene": "COI",
+      "max_results": 8,
+      "min_similarity": 0.75
+    },
+    "results_summary": {
+      "total_found": 8,
+      "search_method": "NCBI BLAST (real data)",
+      "tree_method": "failed"
+    }
+  },
+  "timestamp": "fixed_real_data",
+  "id": "20425dfe-bb30-4bf7-b95b-5ec28e78f210",
+  "created_at": "2025-06-03T22:23:51.970017",
+  "version": "1.0"
+}

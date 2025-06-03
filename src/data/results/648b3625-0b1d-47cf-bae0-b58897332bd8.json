@@ -1,0 +1,59 @@
+{
+  "query_species": "Panthera leo",
+  "search_results": [
+    {
+      "name": "Panthera tigris",
+      "status": "EN",
+      "alignment": "99.5%",
+      "metadata": {
+        "accession": "MZ099334",
+        "bit_score": 1031.9,
+        "e_value": "0.00e+00",
+        "identity": "99.5%",
+        "sequence_length": 579
+      }
+    }
+  ],
+  "phylogenetic_tree": {
+    "tree": {
+      "name": "",
+      "species": [
+        "Panthera leo",
+        "Panthera tigris"
+      ],
+      "height": 0.002590673575129543,
+      "conservation_status": null,
+      "children": [
+        {
+          "name": "Panthera leo",
+          "species": [
+            "Panthera leo"
+          ],
+          "height": 0.0,
+          "conservation_status": "Query",
+          "children": [],
+          "branch_length": 0.002590673575129543
+        },
+        {
+          "name": "Panthera tigris",
+          "species": [
+            "Panthera tigris"
+          ],
+          "height": 0.0,
+          "conservation_status": "EN",
+          "children": [],
+          "branch_length": 0.002590673575129543
+        }
+      ]
+    },
+    "distance_matrix": {
+      "Panthera leo": {
+        "Panthera leo": 0.0,
+        "Panthera tigris": 0.005181347150259086
+      },
+      "Panthera tigris": {
+        "Panthera leo": 0.005181347150259086,
+        "Panthera tigris": 0.0
+      }
+    },
+    "alignment": 

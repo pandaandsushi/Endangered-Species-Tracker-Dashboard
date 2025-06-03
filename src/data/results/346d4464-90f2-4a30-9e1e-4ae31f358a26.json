@@ -1,0 +1,129 @@
+{
+  "query_species": "Mus musculus",
+  "search_results": [
+    {
+      "name": "gi|1197988717|gb|KY018921.1| Mus",
+      "status": "DD",
+      "alignment": "93.1%",
+      "metadata": {
+        "accession": "KY018921",
+        "bit_score": 26917.0,
+        "e_value": "0.00e+00",
+        "identity": "93.1%",
+        "sequence_length": 16304
+      }
+    },
+    {
+      "name": "gi|1197988703|gb|KY018920.1| Mus",
+      "status": "DD",
+      "alignment": "89.2%",
+      "metadata": {
+        "accession": "KY018920",
+        "bit_score": 23739.0,
+        "e_value": "0.00e+00",
+        "identity": "89.2%",
+        "sequence_length": 16299
+      }
+    },
+    {
+      "name": "gi|1331211653|ref|NC_036680.1| Mus",
+      "status": "DD",
+      "alignment": "85.8%",
+      "metadata": {
+        "accession": "NC_036680",
+        "bit_score": 20951.0,
+        "e_value": "0.00e+00",
+        "identity": "85.8%",
+        "sequence_length": 16286
+      }
+    },
+    {
+      "name": "gi|110189714|ref|NC_001665.2| Rattus",
+      "status": "DD",
+      "alignment": "82.7%",
+      "metadata": {
+        "accession": "NC_001665",
+        "bit_score": 18209.0,
+        "e_value": "0.00e+00",
+        "identity": "82.7%",
+        "sequence_length": 16313
+      }
+    },
+    {
+      "name": "gi|19577313|emb|AJ428514.1| Rattus",
+      "status": "DD",
+      "alignment": "82.6%",
+      "metadata": {
+        "accession": "AJ428514",
+        "bit_score": 18148.0,
+        "e_value": "0.00e+00",
+        "identity": "82.6%",
+        "sequence_length": 16310
+      }
+    },
+    {
+      "name": "gi|225622213|ref|NC_012374.1| Rattus",
+      "status": "DD",
+      "alignment": "82.5%",
+      "metadata": {
+        "accession": "NC_012374",
+        "bit_score": 18025.0,
+        "e_value": "0.00e+00",
+        "identity": "82.5%",
+        "sequence_length": 16305
+      }
+    },
+    {
+      "name": "gi|1043523489|gb|KU200225.1| Eothenomys",
+      "status": "DD",
+      "alignment": "79.7%",
+      "metadata": {
+        "accession": "KU200225",
+        "bit_score": 15418.0,
+        "e_value": "0.00e+00",
+        "identity": "79.7%",
+        "sequence_length": 16354
+      }
+    },
+    {
+      "name": "gi|270267536|ref|NC_013571.1| Eothenomys",
+      "status": "DD",
+      "alignment": "79.6%",
+      "metadata": {
+        "accession": "NC_013571",
+        "bit_score": 15343.0,
+        "e_value": "0.00e+00",
+        "identity": "79.6%",
+        "sequence_length": 16362
+      }
+    }
+  ],
+  "phylogenetic_tree": {
+    "error": "Alignment creation failed: Sequences must all be the same length",
+    "method": "failed",
+    "tree_data": {}
+  },
+  "tree_image": null,
+  "metadata": {
+    "query_species": {
+      "name": "Mus musculus",
+      "status": "Query Species",
+      "accession": "OM948981.1",
+      "sequence_length": 16300
+    },
+    "search_parameters": {
+      "gene": "COI",
+      "max_results": 8,
+      "min_similarity": 0.75
+    },
+    "results_summary": {
+      "total_found": 8,
+      "search_method": "NCBI BLAST (real data)",
+      "tree_method": "failed"
+    }
+  },
+  "timestamp": "fixed_real_data",
+  "id": "346d4464-90f2-4a30-9e1e-4ae31f358a26",
+  "created_at": "2025-06-03T22:59:49.813435",
+  "version": "1.0"
+}

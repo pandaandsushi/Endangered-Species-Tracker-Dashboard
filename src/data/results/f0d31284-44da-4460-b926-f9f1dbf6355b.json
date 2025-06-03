@@ -1,0 +1,129 @@
+{
+  "query_species": "Panthera tigris",
+  "search_results": [
+    {
+      "name": "gi|1780564748|gb|MN124275.1| Panthera",
+      "status": "DD",
+      "alignment": "99.5%",
+      "metadata": {
+        "accession": "MN124275",
+        "bit_score": 1137.0,
+        "e_value": "0.00e+00",
+        "identity": "99.5%",
+        "sequence_length": 581
+      }
+    },
+    {
+      "name": "gi|545484413|gb|KF297704.1| Panthera",
+      "status": "DD",
+      "alignment": "98.5%",
+      "metadata": {
+        "accession": "KF297704",
+        "bit_score": 1271.0,
+        "e_value": "0.00e+00",
+        "identity": "98.5%",
+        "sequence_length": 658
+      }
+    },
+    {
+      "name": "gi|545484507|gb|KF297751.1| Panthera",
+      "status": "DD",
+      "alignment": "98.5%",
+      "metadata": {
+        "accession": "KF297751",
+        "bit_score": 1271.0,
+        "e_value": "0.00e+00",
+        "identity": "98.5%",
+        "sequence_length": 658
+      }
+    },
+    {
+      "name": "gi|545484457|gb|KF297726.1| Panthera",
+      "status": "DD",
+      "alignment": "98.5%",
+      "metadata": {
+        "accession": "KF297726",
+        "bit_score": 1271.0,
+        "e_value": "0.00e+00",
+        "identity": "98.5%",
+        "sequence_length": 658
+      }
+    },
+    {
+      "name": "gi|545484415|gb|KF297705.1| Panthera",
+      "status": "DD",
+      "alignment": "98.5%",
+      "metadata": {
+        "accession": "KF297705",
+        "bit_score": 1271.0,
+        "e_value": "0.00e+00",
+        "identity": "98.5%",
+        "sequence_length": 658
+      }
+    },
+    {
+      "name": "gi|676873382|gb|KJ862184.1| Panthera",
+      "status": "DD",
+      "alignment": "98.2%",
+      "metadata": {
+        "accession": "KJ862184",
+        "bit_score": 1241.0,
+        "e_value": "0.00e+00",
+        "identity": "98.2%",
+        "sequence_length": 648
+      }
+    },
+    {
+      "name": "gi|676873380|gb|KJ862183.1| Panthera",
+      "status": "DD",
+      "alignment": "98.0%",
+      "metadata": {
+        "accession": "KJ862183",
+        "bit_score": 1236.0,
+        "e_value": "0.00e+00",
+        "identity": "98.0%",
+        "sequence_length": 648
+      }
+    },
+    {
+      "name": "gi|1780564750|gb|MN124276.1| Panthera",
+      "status": "DD",
+      "alignment": "96.8%",
+      "metadata": {
+        "accession": "MN124276",
+        "bit_score": 1216.0,
+        "e_value": "0.00e+00",
+        "identity": "96.8%",
+        "sequence_length": 658
+      }
+    }
+  ],
+  "phylogenetic_tree": {
+    "error": "Alignment creation failed: Sequences must all be the same length",
+    "method": "failed",
+    "tree_data": {}
+  },
+  "tree_image": null,
+  "metadata": {
+    "query_species": {
+      "name": "Panthera tigris",
+      "status": "Query Species",
+      "accession": "MZ099448.1",
+      "sequence_length": 663
+    },
+    "search_parameters": {
+      "gene": "COI",
+      "max_results": 8,
+      "min_similarity": 0.75
+    },
+    "results_summary": {
+      "total_found": 8,
+      "search_method": "NCBI BLAST (real data)",
+      "tree_method": "failed"
+    }
+  },
+  "timestamp": "fixed_real_data",
+  "id": "f0d31284-44da-4460-b926-f9f1dbf6355b",
+  "created_at": "2025-06-03T21:38:59.226713",
+  "version": "1.0"
+}

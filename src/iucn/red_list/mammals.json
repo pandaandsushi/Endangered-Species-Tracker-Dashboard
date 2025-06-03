@@ -1,0 +1,41 @@
+[
+  {
+    "year_published": "2016",
+    "latest": true,
+    "possibly_extinct": false,
+    "possibly_extinct_in_the_wild": false,
+    "sis_taxon_id": 15951,
+    "url": "https://www.iucnredlist.org/species/15951/5327788",
+    "taxon_scientific_name": "Panthera leo",
+    "red_list_category_code": "VU",
+    "assessment_id": 5327788,
+    "code": "VU",
+    "code_type": "red_list_category"
+  },
+  {
+    "year_published": "2015",
+    "latest": true,
+    "possibly_extinct": false,
+    "possibly_extinct_in_the_wild": false,
+    "sis_taxon_id": 15955,
+    "url": "https://www.iucnredlist.org/species/15955/5327788",
+    "taxon_scientific_name": "Panthera tigris",
+    "red_list_category_code": "EN",
+    "assessment_id": 5327789,
+    "code": "EN",
+    "code_type": "red_list_category"
+  },
+  {
+    "year_published": "2020",
+    "latest": true,
+    "possibly_extinct": true,
+    "possibly_extinct_in_the_wild": false,
+    "sis_taxon_id": 9404,
+    "url": "https://www.iucnredlist.org/species/9404/17963444",
+    "taxon_scientific_name": "Gorilla gorilla",
+    "red_list_category_code": "CR",
+    "assessment_id": 17963444,
+    "code": "CR",
+    "code_type": "red_list_category"
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "query_species": "Felis catus",
+  "search_results": [
+    {
+      "name": "gi|304322922|ref|NC_014456.1| Lynx",
+      "status": "DD",
+      "alignment": "94.6%",
+      "metadata": {
+        "accession": "NC_014456",
+        "bit_score": 279.0,
+        "e_value": "4.09e-63",
+        "identity": "94.6%",
+        "sequence_length": 17056
+      }
+    },
+    {
+      "name": "gi|304322922|ref|NC_014456.1| Lynx",
+      "status": "DD",
+      "alignment": "93.8%",
+      "metadata": {
+        "accession": "NC_014456",
+        "bit_score": 320.0,
+        "e_value": "1.63e-74",
+        "identity": "93.8%",
+        "sequence_length": 17056
+      }
+    },
+    {
+      "name": "gi|304322922|ref|NC_014456.1| Lynx",
+      "status": "DD",
+      "alignment": "91.9%",
+      "metadata": {
+        "accession": "NC_014456",
+        "bit_score": 129.0,
+        "e_value": "2.12e-22",
+        "identity": "91.9%",
+        "sequence_length": 17056
+      }
+    },
+    {
+      "name": "gi|1169129688|gb|KX857779.1| Prionailurus",
+      "status": "DD",
+      "alignment": "91.5%",
+      "metadata": {
+        "accession": "KX857779",
+        "bit_score": 24268.0,
+        "e_value": "0.00e+00",
+        "identity": "91.5%",
+        "sequence_length": 15442
+      }
+    },
+    {
+      "name": "gi|1169129674|gb|KX857778.1| Prionailurus",
+      "status": "DD",
+      "alignment": "91.5%",
+      "metadata": {
+        "accession": "KX857778",
+        "bit_score": 24263.0,
+        "e_value": "0.00e+00",
+        "identity": "91.5%",
+        "sequence_length": 15442
+      }
+    },
+    {
+      "name": "gi|1169129380|gb|KX857757.1| Prionailurus",
+      "status": "DD",
+      "alignment": "91.4%",
+      "metadata": {
+        "accession": "KX857757",
+        "bit_score": 24248.0,
+        "e_value": "0.00e+00",
+        "identity": "91.4%",
+        "sequence_length": 15442
+      }
+    },
+    {
+      "name": "gi|1169129898|gb|KX857794.1| Prionailurus",
+      "status": "DD",
+      "alignment": "91.4%",
+      "metadata": {
+        "accession": "KX857794",
+        "bit_score": 24247.0,
+        "e_value": "0.00e+00",
+        "identity": "91.4%",
+        "sequence_length": 15439
+      }
+    },
+    {
+      "name": "gi|1169129912|gb|KX857795.1| Prionailurus",
+      "status": "DD",
+      "alignment": "91.4%",
+      "metadata": {
+        "accession": "KX857795",
+        "bit_score": 24243.0,
+        "e_value": "0.00e+00",
+        "identity": "91.4%",
+        "sequence_length": 15442
+      }
+    }
+  ],
+  "phylogenetic_tree": {
+    "error": "Alignment creation failed: Sequences must all be the same length",
+    "method": "failed",
+    "tree_data": {}
+  },
+  "tree_image": null,
+  "metadata": {
+    "query_species": {
+      "name": "Felis catus",
+      "status": "Query Species",
+      "accession": "NC_001700.1",
+      "sequence_length": 17009
+    },
+    "search_parameters": {
+      "gene": "COI",
+      "max_results": 8,
+      "min_similarity": 0.75
+    },
+    "results_summary": {
+      "total_found": 8,
+      "search_method": "NCBI BLAST (real data)",
+      "tree_method": "failed"
+    }
+  },
+  "timestamp": "fixed_real_data",
+  "id": "fdbb5197-1071-4fce-964d-f6a75a347d6f",
+  "created_at": "2025-06-03T21:27:03.423049",
+  "version": "1.0"
+}

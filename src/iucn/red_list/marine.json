@@ -1,0 +1,28 @@
+[
+  {
+    "year_published": "2018",
+    "latest": true,
+    "possibly_extinct": false,
+    "possibly_extinct_in_the_wild": true,
+    "sis_taxon_id": 22823,
+    "url": "https://www.iucnredlist.org/species/22823/14871490",
+    "taxon_scientific_name": "Ursus maritimus",
+    "red_list_category_code": "VU",
+    "assessment_id": 14871490,
+    "code": "VU",
+    "code_type": "red_list_category"
+  },
+  {
+    "year_published": "1994",
+    "latest": false,
+    "possibly_extinct": false,
+    "possibly_extinct_in_the_wild": false,
+    "sis_taxon_id": 10105,
+    "url": "https://www.iucnredlist.org/species/10105/3164883",
+    "taxon_scientific_name": "Hippopus hippopus",
+    "red_list_category_code": "I",
+    "assessment_id": 3164883,
+    "code": "I",
+    "code_type": "red_list_category"
+  }
+]
