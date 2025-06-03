@@ -81,7 +81,7 @@ export default function Dashboard() {
         body: JSON.stringify({
           species_name: query,
           gene: gene,
-          max_results: 8,
+          max_results: 20,
           min_similarity: minSimilarity,
         }),
       })
