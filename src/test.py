@@ -4,7 +4,7 @@ from Bio import Entrez
 accession_number = "MZ099333"
 
 # Gunakan email untuk Entrez
-Entrez.email = "raffaelsiahaan@gmail.com"  # Pastikan mengganti dengan email yang valid
+Entrez.email = "theajosephine04@gmail.com"  # Pastikan mengganti dengan email yang valid
 
 # Mendapatkan data dari Entrez
 handle = Entrez.efetch(db="nucleotide", id=accession_number, rettype="gb", retmode="text")

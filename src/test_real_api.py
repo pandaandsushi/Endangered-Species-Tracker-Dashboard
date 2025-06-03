@@ -56,7 +56,7 @@ class FixedAPITester:
             response = requests.post(
                 f"{self.base_url}/api/search/fixed",
                 json=payload,
-                timeout=120  # 2 minutes timeout for BLAST
+                timeout=300  # 2 minutes timeout for BLAST
             )
             
             end_time = time.time()

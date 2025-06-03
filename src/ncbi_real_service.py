@@ -32,9 +32,9 @@ class NCBIRealServiceFixed:
         Entrez.email = email
         
         # Set timeouts
-        self.search_timeout = 240  # seconds
-        self.blast_timeout = 120  # seconds
-        self.fetch_timeout = 240   # seconds
+        self.search_timeout = 300  # seconds
+        self.blast_timeout = 300  # seconds
+        self.fetch_timeout = 300   # seconds
         
         # Rate limiting
         self.last_request_time = 0
