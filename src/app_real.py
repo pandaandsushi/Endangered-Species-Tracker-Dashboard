@@ -8,6 +8,7 @@ import os
 import sys
 import logging
 import traceback
+from Bio import Entrez
 
 # Add current directory to path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -153,8 +154,14 @@ def phylogenetic_search():
         # Step 4: Format results
         search_results = []
         for species_data in ncbi_results["similar_species"]:
+            accession_number = species_data["accession"]
+            handle = Entrez.efetch(db="nucleotide", id=accession_number, rettype="gb", retmode="text")
+            record = handle.read()
+            import re
+            match = re.search(r"SOURCE\s+(.*)", record)
+            organism = match.group(1).strip()
             search_results.append({
-                "name": str(species_data["name"]),
+                "name": str(organism),
                 "status": str(species_data.get("status", "DD")),
                 "alignment": f"{float(species_data['similarity']):.1%}",
                 "metadata": {

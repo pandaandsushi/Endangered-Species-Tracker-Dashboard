@@ -899,7 +899,7 @@ class RealPhylogeneticServiceML:
         try:
             # Convert tree data to Newick format
             newick_str = self._tree_dict_to_newick(tree_data["root"])
-            
+        
             # Create ETE3 tree
             tree = Tree(newick_str)
             
@@ -909,8 +909,8 @@ class RealPhylogeneticServiceML:
             ts.show_branch_length = True
             ts.show_branch_support = True
             ts.mode = "r"  # rectangular mode
-            ts.branch_vertical_margin = 10
-            ts.scale = 120
+            ts.branch_vertical_margin = 15
+            ts.scale = 150
             
             # Add conservation status colors
             status_colors = {
@@ -930,27 +930,58 @@ class RealPhylogeneticServiceML:
                 # Find species in data
                 species_name = leaf.name.replace("_", " ")
                 status = "DD"  # Default
-                
+                is_query = False
+
                 if species_name == sequences_data["query_species"]:
                     status = "Query"
+                    is_query = True
                 else:
                     for species in sequences_data.get("similar_species", []):
                         if species["name"] == species_name:
                             status = species.get("status", "DD")
                             break
                 
-                # Add colored circle
                 color = status_colors.get(status, "#808080")
-                circle = CircleFace(radius=8, color=color, style="sphere")
-                leaf.add_face(circle, column=0, position="branch-right")
+
+            # Enhanced styling for query species
+                if is_query:
+                # Larger, highlighted circle for query species
+                    circle = CircleFace(radius=12, color=color, style="sphere")
+                    leaf.add_face(circle, column=0, position="branch-right")
                 
-                # Add status text
-                status_face = AttrFace("name", fsize=10, fgcolor=color, fstyle="italic")
-                leaf.add_face(status_face, column=1, position="branch-right")
+                # Bold, larger text for query species
+                    name_face = faces.TextFace(f"🎯 {species_name} (INPUT SPECIES)", 
+                                        fsize=12, bold=True, fgcolor=color)
+                    leaf.add_face(name_face, column=1, position="branch-right")
+                
+                # Add special marker
+                    marker_face = faces.TextFace("← QUERY", fsize=10, bold=True, fgcolor="#FF0000")
+                    leaf.add_face(marker_face, column=2, position="branch-right")
+                
+                else:
+                # Regular styling for similar species
+                    circle = CircleFace(radius=8, color=color, style="sphere")
+                    leaf.add_face(circle, column=0, position="branch-right")
+                
+                # Species name with conservation status
+                    name_face = faces.TextFace(f"{species_name}", fsize=10, fstyle="italic", fgcolor=color)
+                    leaf.add_face(name_face, column=1, position="branch-right")
+                
+                # Conservation status label
+                    status_face = faces.TextFace(f"({status})", fsize=8, fgcolor=color)
+                    leaf.add_face(status_face, column=2, position="branch-right")
             
-            # Add title
-            title = f"Phylogenetic Tree: {sequences_data['query_species']}\nMethod: {tree_data.get('method', 'Unknown')}"
-            ts.title.add_face(faces.TextFace(title, fsize=14, bold=True), column=0)
+            # Enhanced title with query species information
+                title = f"Phylogenetic Tree Analysis\nQuery Species: {sequences_data['query_species']}\nMethod: {tree_data.get('method', 'Unknown')} | Total Species: {tree_data.get('species_count', 0)}"
+                ts.title.add_face(faces.TextFace(title, fsize=14, bold=True), column=0)
+            
+            # Add conservation status legend
+                legend_text = "Conservation Status: CR=Critically Endangered, EN=Endangered, VU=Vulnerable, NT=Near Threatened, LC=Least Concern, DD=Data Deficient"
+                ts.legend.add_face(faces.TextFace(legend_text, fsize=10), column=0)
+            
+            # Render to image with higher resolution
+                temp_file = tempfile.NamedTemporaryFile(suffix='.png', delete=False)
+                tree.render(temp_file.name, tree_style=ts, dpi=300, w=1400, h=1000)
             
             # Render to image
             temp_file = tempfile.NamedTemporaryFile(suffix='.png', delete=False)
