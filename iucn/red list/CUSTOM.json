@@ -1,0 +1,21 @@
+[{
+    "year_published": "1988",
+    "latest": false,
+    "possibly_extinct": false,
+    "possibly_extinct_in_the_wild": false,
+    "sis_taxon_id": 22680978,
+    "url": "https://www.iucnredlist.org/species/22680978/27100450",
+    "taxon_scientific_name": "Dendropicos stierlingi",
+    "red_list_category_code": "CUSTOM",
+    "assessment_id": 27100450,
+    "code": "CUSTOM",
+    "code_type": "red_list_category",
+    "scopes": [
+        {
+            "description": {
+                "en": "Global"
+            },
+            "code": "1"
+        }
+    ]
+}]
