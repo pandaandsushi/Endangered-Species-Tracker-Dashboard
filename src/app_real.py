@@ -117,7 +117,7 @@ def phylogenetic_search():
         
         species_name = data['species_name'].strip()
         gene = data.get('gene', 'COI')
-        max_results = min(data.get('max_results', 8), 10)
+        max_results = min(data.get('max_results', 20), 20)
         min_similarity = data.get('min_similarity', 0.7)
         
         logger.info(f"🔍 ML PHYLOGENETIC SEARCH: {species_name} ({gene})")

@@ -151,7 +151,7 @@ class NCBIRealServiceFixed:
     def search_similar_species_real(self, 
                                    species_name: str, 
                                    gene: str = "COI", 
-                                   max_results: int = 8,
+                                   max_results: int = 20,
                                    min_similarity: float = 0.7) -> Dict[str, Any]:
         """
         Search for similar species using REAL NCBI BLAST with proper error handling

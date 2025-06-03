@@ -46,7 +46,7 @@ class FixedAPITester:
             payload = {
                 "species_name": species_name,
                 "gene": "COI",
-                "max_results": 8,
+                "max_results": 20,
                 "min_similarity": 0.75
             }
             
