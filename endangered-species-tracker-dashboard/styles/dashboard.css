@@ -1,0 +1,856 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* CSS Variables for Colors */
+:root {
+  --header-color: #7b8b56;
+  --dark-color: #61612f;
+  --light-green: #a8b87a;
+  --very-light-green: #e8f0d6;
+  --white: #ffffff;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-900: #111827;
+  --red-600: #dc2626;
+  --orange-500: #f97316;
+  --yellow-500: #eab308;
+  --yellow-400: #facc15;
+  --green-500: #22c55e;
+  --blue-600: #2563eb;
+  --purple-600: #9333ea;
+}
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--dark-color);
+  line-height: 1.6;
+}
+
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, var(--very-light-green), var(--light-green));
+}
+
+/* Header Styles */
+.header {
+  background-color: var(--header-color);
+  color: var(--white);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "Sue Ellen Francisco", cursive;
+  letter-spacing: 0.05em;
+}
+
+.logo-img {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+.nav-desktop {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-button {
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+  color: var(--light-green);
+}
+
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--white);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.nav-mobile {
+  display: none;
+  padding-bottom: 1rem;
+}
+
+.nav-mobile.open {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nav-mobile .nav-button {
+  text-align: left;
+  padding: 0.5rem 0;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  background: linear-gradient(to right, var(--header-color), var(--dark-color));
+  color: var(--white);
+}
+
+.hero-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Overview Section */
+.overview-section {
+  padding: 4rem 1rem;
+  background-color: var(--white);
+}
+
+.overview-container {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-title h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--header-color);
+  font-family: "Sue Ellen Francisco", cursive;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.decorative-tilde {
+  color: var(--light-green);
+}
+
+.overview-content {
+  margin-bottom: 3rem;
+}
+
+.overview-text {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: var(--gray-700);
+  margin-bottom: 1.5rem;
+}
+
+/* Why This Project Matters */
+.project-matters {
+  background-color: var(--header-color);
+  color: var(--white);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.decorative-circle {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--white);
+  border-radius: 50%;
+  opacity: 0.2;
+}
+
+.circle-top-left {
+  top: 1rem;
+  left: 1rem;
+}
+.circle-top-right {
+  top: 1rem;
+  right: 1rem;
+}
+.circle-bottom-left {
+  bottom: 1rem;
+  left: 1rem;
+}
+.circle-bottom-right {
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.project-matters h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Sue Ellen Francisco", cursive;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.project-description {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.project-description.bold {
+  font-weight: 500;
+}
+
+.project-features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.feature-bullet {
+  color: var(--light-green);
+  font-size: 1.25rem;
+}
+
+/* How It Works */
+.how-it-works {
+  margin-bottom: 4rem;
+}
+
+.how-it-works h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--header-color);
+  font-family: "Sue Ellen Francisco", cursive;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.step-card {
+  background-color: var(--very-light-green);
+  border: 2px solid var(--light-green);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.step-number {
+  background-color: var(--header-color);
+  color: var(--white);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.step-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--header-color);
+  margin-bottom: 0.75rem;
+}
+
+.step-description {
+  color: var(--gray-700);
+}
+
+/* Phylogenetic Tree Section */
+.tree-section {
+  padding: 4rem 1rem;
+  background: linear-gradient(to bottom, var(--very-light-green), var(--light-green));
+}
+
+.tree-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.tree-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tree-title h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--header-color);
+  font-family: "Sue Ellen Francisco", cursive;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.tree-subtitle {
+  color: var(--gray-600);
+  font-size: 1.125rem;
+}
+
+.tree-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.5rem;
+}
+
+/* Search Panel */
+.search-panel {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.panel-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.form-input,
+.form-select {
+  width: 100%;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus,
+.form-select:focus {
+  outline: none;
+  border-color: var(--header-color);
+  box-shadow: 0 0 0 3px rgba(123, 139, 86, 0.1);
+}
+
+.form-range {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.search-button {
+  width: 100%;
+  background-color: var(--header-color);
+  color: var(--white);
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover:not(:disabled) {
+  background-color: var(--dark-color);
+}
+
+.search-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Alert Styles */
+.alert {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.alert-error {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+}
+
+.alert-info {
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1e40af;
+}
+
+.alert-success {
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  color: #166534;
+}
+
+/* Results Panel */
+.results-panel {
+  margin-top: 1.5rem;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.results-list {
+  max-height: 24rem;
+  overflow-y: auto;
+}
+
+.species-item {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  margin-bottom: 0.5rem;
+}
+
+.species-item:hover {
+  background-color: var(--gray-100);
+}
+
+.species-item.selected {
+  background-color: var(--very-light-green);
+  border-color: var(--light-green);
+}
+
+.species-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.species-name {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.species-status {
+  font-size: 0.875rem;
+}
+
+.species-alignment {
+  text-align: right;
+}
+
+.alignment-value {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.alignment-label {
+  font-size: 0.75rem;
+  color: var(--gray-500);
+}
+
+/* Tree Display */
+.tree-display {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.tree-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.download-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  background-color: #22c55e;
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #16a34a;
+}
+
+.tree-container-display {
+  background-color: var(--gray-50);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 31.25rem;
+}
+
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.loading-spinner {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  color: var(--header-color);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.loading-subtitle {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+  margin-bottom: 0.25rem;
+}
+
+.loading-note {
+  font-size: 0.75rem;
+  color: var(--gray-400);
+}
+
+.tree-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--gray-500);
+}
+
+.empty-icon {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 1rem;
+  color: var(--gray-300);
+}
+
+.empty-title {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.empty-subtitle {
+  font-size: 0.875rem;
+}
+
+/* Tree Controls */
+.tree-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.legend {
+  font-size: 0.75rem;
+}
+
+.legend-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.legend-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.legend-dot {
+  font-weight: bold;
+}
+
+.zoom-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.zoom-button {
+  font-size: 0.875rem;
+  background-color: var(--gray-200);
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.zoom-button:hover {
+  background-color: var(--gray-300);
+}
+
+/* Species Details */
+.species-details {
+  margin-top: 1.5rem;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.details-section h4 {
+  font-weight: 500;
+  color: var(--gray-700);
+  margin-bottom: 0.5rem;
+}
+
+.details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.detail-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.detail-label {
+  font-weight: 500;
+}
+
+.detail-value {
+  font-style: italic;
+}
+
+.detail-value.status {
+  font-weight: 500;
+}
+
+.detail-value.similarity {
+  font-weight: 500;
+  color: var(--blue-600);
+}
+
+.detail-value.mono {
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+/* Status Colors */
+.status-ex {
+  color: var(--gray-900);
+}
+.status-ew {
+  color: var(--purple-600);
+}
+.status-cr {
+  color: var(--red-600);
+}
+.status-en {
+  color: var(--orange-500);
+}
+.status-vu {
+  color: var(--yellow-500);
+}
+.status-nt {
+  color: var(--yellow-400);
+}
+.status-lc {
+  color: var(--green-500);
+}
+.status-dd {
+  color: var(--gray-500);
+}
+.status-query {
+  color: var(--blue-600);
+}
+
+/* Method Badges */
+.method-badge {
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+}
+
+.method-ml {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.method-upgma {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.method-distance {
+  background-color: var(--gray-100);
+  color: var(--gray-800);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-desktop {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: block;
+  }
+
+  .project-content {
+    grid-template-columns: 1fr;
+  }
+
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tree-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tree-controls {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .legend-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .overview-section,
+  .tree-section {
+    padding: 2rem 1rem;
+  }
+
+  .section-title h2,
+  .tree-title h2 {
+    font-size: 3rem;
+  }
+
+  .how-it-works h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-matters h3 {
+    font-size: 1.5rem;
+  }
+}
