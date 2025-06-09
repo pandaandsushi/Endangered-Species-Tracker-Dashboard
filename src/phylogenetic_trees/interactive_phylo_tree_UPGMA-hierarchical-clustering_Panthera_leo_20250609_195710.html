@@ -1,0 +1,458 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Interactive Phylogenetic Tree - Panthera leo</title>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background-color: #f8f9fa;
+            }
+            
+            .tree-container {
+                background: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                padding: 20px;
+                margin: 20px 0;
+            }
+            
+            .node circle {
+                stroke: #333;
+                stroke-width: 2px;
+                cursor: pointer;
+            }
+            
+            .node.query circle {
+                stroke: #FF0000;
+                stroke-width: 4px;
+                r: 8;
+            }
+            
+            .node text {
+                font: 12px sans-serif;
+                cursor: pointer;
+            }
+            
+            .node.query text {
+                font-weight: bold;
+                font-size: 14px;
+            }
+            
+            .link {
+                fill: none;
+                stroke: #ccc;
+                stroke-width: 2px;
+            }
+            
+            .tooltip {
+                position: absolute;
+                text-align: left;
+                padding: 10px;
+                font: 12px sans-serif;
+                background: rgba(0, 0, 0, 0.8);
+                color: white;
+                border-radius: 5px;
+                pointer-events: none;
+                opacity: 0;
+                max-width: 300px;
+            }
+            
+            .legend {
+                background: #f8f9fa;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                padding: 15px;
+                margin: 20px 0;
+            }
+            
+            .legend-item {
+                display: inline-block;
+                margin: 5px 10px;
+            }
+            
+            .legend-color {
+                width: 15px;
+                height: 15px;
+                display: inline-block;
+                margin-right: 5px;
+                border-radius: 50%;
+                border: 1px solid #333;
+            }
+            
+            .controls {
+                margin: 20px 0;
+                text-align: center;
+            }
+            
+            .btn {
+                background: #007bff;
+                color: white;
+                border: none;
+                padding: 8px 16px;
+                margin: 0 5px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            
+            .btn:hover {
+                background: #0056b3;
+            }
+            
+            .info-panel {
+                background: #e9ecef;
+                border-radius: 5px;
+                padding: 15px;
+                margin: 20px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>🌳 Interactive Phylogenetic Tree Analysis</h1>
+        
+        <div class="info-panel">
+            <h3>Query Species: Panthera leo</h3>
+            <p><strong>Method:</strong> UPGMA_hierarchical_clustering</p>
+            <p><strong>Total Species:</strong> 5</p>
+            <p><strong>Analysis Date:</strong> 2025-06-09 19:57:10</p>
+        </div>
+        
+        <div class="controls">
+            <button class="btn" onclick="expandAll()">Expand All</button>
+            <button class="btn" onclick="collapseAll()">Collapse All</button>
+            <button class="btn" onclick="resetZoom()">Reset Zoom</button>
+            <button class="btn" onclick="downloadSVG()">Download SVG</button>
+        </div>
+        
+        <div class="legend">
+            <h4>🎨 IUCN Conservation Status Legend:</h4>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #FF0000"></span>
+                <span>CR - Critically Endangered</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #FF8C00"></span>
+                <span>EN - Endangered</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #FFD700"></span>
+                <span>VU - Vulnerable</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #9ACD32"></span>
+                <span>NT - Near Threatened</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #32CD32"></span>
+                <span>LC - Least Concern</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #808080"></span>
+                <span>DD - Data Deficient</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: #0000FF"></span>
+                <span>Query Species</span>
+            </div>
+        </div>
+        
+        <div class="tree-container">
+            <div id="tree"></div>
+        </div>
+        
+        <div class="tooltip"></div>
+        
+        <script>
+            // Tree data
+            const treeData = {
+  "id": "heft0gea",
+  "name": "Inner4",
+  "branch_length": 0.0,
+  "parent": null,
+  "is_leaf": true,
+  "children": [
+    {
+      "id": "fzm69caw",
+      "name": "Panthera tigris",
+      "branch_length": 0.4916918429003021,
+      "parent": "heft0gea",
+      "conservation_status": "RE",
+      "conservation_source": "IUCN Red List",
+      "iucn_year_published": "2010",
+      "possibly_extinct": false,
+      "is_leaf": true
+    },
+    {
+      "id": "3mthv0k3",
+      "name": "Inner3",
+      "branch_length": 0.45845921450151056,
+      "parent": "heft0gea",
+      "is_leaf": true,
+      "children": [
+        {
+          "id": "cvb88etk",
+          "name": "Inner1",
+          "branch_length": 0.032477341389728076,
+          "parent": "3mthv0k3",
+          "is_leaf": true,
+          "children": [
+            {
+              "id": "eax5s1it",
+              "name": "Panthera pardus 2",
+              "branch_length": 0.0007552870090634656,
+              "parent": "cvb88etk",
+              "conservation_status": "VU",
+              "conservation_source": "IUCN Red List",
+              "iucn_year_published": "2025",
+              "possibly_extinct": false,
+              "is_leaf": true
+            },
+            {
+              "id": "5vilnipk",
+              "name": "Panthera pardus",
+              "branch_length": 0.0007552870090634656,
+              "parent": "cvb88etk",
+              "conservation_status": "VU",
+              "conservation_source": "IUCN Red List",
+              "iucn_year_published": "2025",
+              "possibly_extinct": false,
+              "is_leaf": true
+            }
+          ],
+          "is_internal": true
+        },
+        {
+          "id": "j3qdpi3k",
+          "name": "Inner2",
+          "branch_length": 0.031722054380664666,
+          "parent": "3mthv0k3",
+          "is_leaf": true,
+          "children": [
+            {
+              "id": "18gqaoy6",
+              "name": "Panthera tigris 2",
+              "branch_length": 0.0015105740181268756,
+              "parent": "j3qdpi3k",
+              "conservation_status": "RE",
+              "conservation_source": "IUCN Red List",
+              "iucn_year_published": "2010",
+              "possibly_extinct": false,
+              "is_leaf": true
+            },
+            {
+              "id": "pmzzeckk",
+              "name": "Panthera leo",
+              "branch_length": 0.0015105740181268756,
+              "parent": "j3qdpi3k",
+              "conservation_status": "Query",
+              "is_query": true,
+              "is_leaf": true
+            }
+          ],
+          "is_internal": true
+        }
+      ],
+      "is_internal": true
+    }
+  ],
+  "is_internal": true
+};
+            
+            // Status colors
+            const statusColors = {"EX": "#000000", "EW": "#8B008B", "CR": "#FF0000", "EN": "#FF8C00", "VU": "#FFD700", "NT": "#9ACD32", "LC": "#32CD32", "DD": "#808080", "NE": "#A9A9A9", "Query": "#0000FF"};
+            
+            // Set dimensions and margins
+            const margin = {top: 20, right: 120, bottom: 20, left: 120};
+            const width = 1200 - margin.left - margin.right;
+            const height = 800 - margin.bottom - margin.top;
+            
+            // Create SVG
+            const svg = d3.select("#tree")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom);
+                
+            const g = svg.append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+            
+            // Create tree layout
+            const tree = d3.tree().size([height, width]);
+            
+            // Create hierarchy
+            const root = d3.hierarchy(treeData);
+            
+            // Generate tree
+            tree(root);
+            
+            // Add zoom behavior
+            const zoom = d3.zoom()
+                .scaleExtent([0.1, 3])
+                .on("zoom", (event) => {
+                    g.attr("transform", event.transform);
+                });
+            
+            svg.call(zoom);
+            
+            // Create tooltip
+            const tooltip = d3.select(".tooltip");
+            
+            // Add links
+            const link = g.selectAll(".link")
+                .data(root.descendants().slice(1))
+                .enter().append("path")
+                .attr("class", "link")
+                .attr("d", d => {
+                    if (!d.parent) return "";
+                    return `M${d.y},${d.x} C${(d.y + d.parent.y) / 2},${d.x} ${(d.y + d.parent.y) / 2},${d.parent.x} ${d.parent.y},${d.parent.x}`;
+                })
+                .style("stroke-width", d => Math.max(1, 3 - d.depth));
+            
+            // Add nodes
+            const node = g.selectAll(".node")
+                .data(root.descendants())
+                .enter().append("g")
+                .attr("class", d => {
+                    let classes = "node";
+                    if (d.data.is_query) classes += " query";
+                    return classes;
+                })
+                .attr("transform", d => `translate(${d.y},${d.x})`);
+            
+            // Add circles for nodes
+            node.append("circle")
+                .attr("r", d => d.data.is_query ? 8 : 5)
+                .style("fill", d => {
+                    const status = d.data.conservation_status || "DD";
+                    return statusColors[status] || statusColors["DD"];
+                })
+                .style("opacity", 0.8)
+                .on("mouseover", function(event, d) {
+                    // Highlight node
+                    d3.select(this).style("opacity", 1).attr("r", d.data.is_query ? 10 : 7);
+                    
+                    // Show tooltip
+                    const status = d.data.conservation_status || "DD";
+                    const similarity = d.data.similarity ? `${(d.data.similarity * 100).toFixed(1)}%` : "N/A";
+                    
+                    let tooltipContent = `
+                        <strong>${d.data.name || "Internal Node"}</strong><br/>
+                        <strong>Conservation Status:</strong> ${status}<br/>
+                    `;
+                    
+                    if (d.data.similarity) {
+                        tooltipContent += `<strong>Similarity:</strong> ${similarity}<br/>`;
+                    }
+                    
+                    if (d.data.branch_length) {
+                        tooltipContent += `<strong>Branch Length:</strong> ${d.data.branch_length.toFixed(4)}<br/>`;
+                    }
+                    
+                    if (d.data.iucn_year_published) {
+                        tooltipContent += `<strong>IUCN Year:</strong> ${d.data.iucn_year_published}<br/>`;
+                    }
+                    
+                    if (d.data.conservation_source) {
+                        tooltipContent += `<strong>Source:</strong> ${d.data.conservation_source}<br/>`;
+                    }
+                    
+                    tooltip.transition().duration(200).style("opacity", .9);
+                    tooltip.html(tooltipContent)
+                        .style("left", (event.pageX + 10) + "px")
+                        .style("top", (event.pageY - 28) + "px");
+                })
+                .on("mouseout", function(event, d) {
+                    // Reset node
+                    d3.select(this).style("opacity", 0.8).attr("r", d.data.is_query ? 8 : 5);
+                    
+                    // Hide tooltip
+                    tooltip.transition().duration(500).style("opacity", 0);
+                });
+            
+            // Add labels
+            node.append("text")
+                .attr("dy", ".35em")
+                .attr("x", d => d.children || d._children ? -13 : 13)
+                .style("text-anchor", d => d.children || d._children ? "end" : "start")
+                .style("font-size", d => d.data.is_query ? "14px" : "12px")
+                .style("font-weight", d => d.data.is_query ? "bold" : "normal")
+                .style("fill", d => {
+                    const status = d.data.conservation_status || "DD";
+                    return statusColors[status] || statusColors["DD"];
+                })
+                .text(d => {
+                    if (!d.data.name) return "";
+                    let name = d.data.name.replace(/_/g, " ");
+                    if (d.data.is_query) name = "🎯 " + name + " (QUERY)";
+                    return name;
+                });
+            
+            // Control functions
+            window.expandAll = function() {
+                node.each(function(d) {
+                    if (d._children) {
+                        d.children = d._children;
+                        d._children = null;
+                    }
+                });
+                update();
+            };
+            
+            window.collapseAll = function() {
+                node.each(function(d) {
+                    if (d.children) {
+                        d._children = d.children;
+                        d.children = null;
+                    }
+                });
+                update();
+            };
+            
+            window.resetZoom = function() {
+                svg.transition().duration(750).call(
+                    zoom.transform,
+                    d3.zoomIdentity
+                );
+            };
+            
+            window.downloadSVG = function() {
+                const svgData = new XMLSerializer().serializeToString(svg.node());
+                const svgBlob = new Blob([svgData], {type: "image/svg+xml;charset=utf-8"});
+                const svgUrl = URL.createObjectURL(svgBlob);
+                const downloadLink = document.createElement("a");
+                downloadLink.href = svgUrl;
+                downloadLink.download = "phylogenetic_tree_Panthera_leo.svg";
+                document.body.appendChild(downloadLink);
+                downloadLink.click();
+                document.body.removeChild(downloadLink);
+            };
+            
+            function update() {
+                // Re-render tree (simplified for this example)
+                location.reload();
+            }
+            
+            // Add branch length scale
+            const scale = g.append("g")
+                .attr("class", "scale")
+                .attr("transform", `translate(50, ${height - 50})`);
+            
+            scale.append("line")
+                .attr("x1", 0)
+                .attr("x2", 100)
+                .attr("y1", 0)
+                .attr("y2", 0)
+                .style("stroke", "#333")
+                .style("stroke-width", 2);
+            
+            scale.append("text")
+                .attr("x", 50)
+                .attr("y", -10)
+                .style("text-anchor", "middle")
+                .style("font-size", "12px")
+                .text("0.1 substitutions/site");
+        </script>
+    </body>
+    </html>
+    

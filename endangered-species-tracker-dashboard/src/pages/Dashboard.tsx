@@ -269,10 +269,11 @@ export default function Dashboard() {
                   from public databases with conservation status data to build phylogenetic trees—diagrams that show how
                   species are related through evolution.
                 </p>
-                <p className="project-description bold">With this platform, you can:</p>
+                
               </div>
 
               <div className="project-features">
+                <p className="project-description bold">With this platform, you can:</p>
                 <div className="feature-item">
                   <span className="feature-bullet">•</span>
                   <span>Explore species listed as threatened, endangered, or critically endangered</span>
@@ -525,17 +526,6 @@ export default function Dashboard() {
                           setError("Failed to load interactive tree")
                         }}
                       />
-                      {treeImage && (
-                        <div style={{ marginTop: "1rem", textAlign: "center" }}>
-                          <button
-                            onClick={() => setInteractiveTreeUrl(null)}
-                            className="zoom-button"
-                            style={{ marginRight: "0.5rem" }}
-                          >
-                            View Static Image
-                          </button>
-                        </div>
-                      )}
                     </div>
                   ) : treeImage ? (
                     <div style={{ width: "100%" }}>
@@ -589,17 +579,6 @@ export default function Dashboard() {
                           <span className="legend-dot status-dd">●</span> DD (Data Deficient)
                         </p>
                       </div>
-                    </div>
-
-                    <div className="zoom-controls">
-                      <button className="zoom-button">
-                        <ZoomIn size={16} />
-                        Zoom In
-                      </button>
-                      <button className="zoom-button">
-                        <ZoomOut size={16} />
-                        Zoom Out
-                      </button>
                     </div>
                   </div>
                 )}

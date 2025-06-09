@@ -454,7 +454,7 @@ class RealPhylogeneticServiceML:
             # Create BioPython alignment object
             records = []
             for species_name, aligned_seq in aligned_sequences.items():
-                clean_id = re.sub(r'[^\w]', '_', species_name)[:15]
+                clean_id = re.sub(r'[^\w]', '_', species_name)
                 record = SeqRecord(
                     Seq(aligned_seq),
                     id=clean_id,
@@ -641,8 +641,15 @@ class RealPhylogeneticServiceML:
         if clade.name and not clade.clades:
             species_name = str(clade.name).replace("_", " ")
             if species_name == sequences_data["query_species"]:
-                node["conservation_status"] = "Query"
+                iucn_data = self._get_conservation_status(species_name)  # Get the IUCN status
+                node["conservation_status"] = iucn_data["status"]
+                node["conservation_source"] = iucn_data["source"]
                 node["is_query"] = True
+                # Optionally add other IUCN data, e.g., year published, extinct status
+                if "year_published" in iucn_data:
+                    node["iucn_year_published"] = iucn_data["year_published"]
+                if "possibly_extinct" in iucn_data:
+                    node["possibly_extinct"] = iucn_data["possibly_extinct"]
             elif species_name in species_info:
                 # Use status from NCBI results which should now have IUCN data
                 node["conservation_status"] = species_info[species_name].get("status", "DD")
@@ -1395,9 +1402,12 @@ class RealPhylogeneticServiceML:
             }}
             
             .node.query circle {{
-                stroke: #FF0000;
                 stroke-width: 4px;
                 r: 8;
+                fill: function(d) {{
+                    const status = d.data.conservation_status || "DD";
+                    return statusColors[status] || statusColors["DD"];
+                }};
             }}
             
             .node text {{
