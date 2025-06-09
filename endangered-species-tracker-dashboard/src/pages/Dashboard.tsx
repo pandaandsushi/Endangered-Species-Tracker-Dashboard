@@ -27,6 +27,7 @@ interface SearchResult {
   }
   search_results: Species[]
   phylogenetic_tree: {
+    interactive_html: any
     tree_data: any
     tree_image: string | null
     image_info: {
@@ -63,6 +64,7 @@ export default function Dashboard() {
   const [gene, setGene] = useState("COI")
   const [minSimilarity, setMinSimilarity] = useState(0.7)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [interactiveTreeUrl, setInteractiveTreeUrl] = useState<string | null>(null)
 
   // API base URL
   const API_BASE_URL = "http://localhost:5000"
@@ -74,6 +76,7 @@ export default function Dashboard() {
     setError(null)
     setTreeImage(null)
     setImageInfo(null)
+    setInteractiveTreeUrl(null)
 
     try {
       const response = await fetch(`${API_BASE_URL}/api/search/phylogenetic`, {
@@ -97,6 +100,10 @@ export default function Dashboard() {
 
         if (data.phylogenetic_tree?.tree_image) {
           setTreeImage(data.phylogenetic_tree.tree_image)
+        }
+
+        if (data.phylogenetic_tree?.interactive_html) {
+          setInteractiveTreeUrl(`${API_BASE_URL}${data.phylogenetic_tree.interactive_html}`)
         }
 
         if (data.phylogenetic_tree?.image_info) {
@@ -476,14 +483,22 @@ export default function Dashboard() {
                 <div className="tree-header">
                   <h3 className="panel-title">
                     <TreePine size={20} />
-                    Phylogenetic Tree
+                    Phylogenetic Tree {interactiveTreeUrl && !treeImage ? "(Interactive)" : "(Static)"}
                   </h3>
-                  {treeImage && (
-                    <button onClick={downloadImage} className="download-button">
-                      <Download size={16} />
-                      Download PNG
-                    </button>
-                  )}
+                  <div style={{ display: "flex", gap: "0.5rem" }}>
+                    {interactiveTreeUrl && (
+                      <button onClick={() => window.open(interactiveTreeUrl, "_blank")} className="download-button">
+                        <ZoomIn size={16} />
+                        Open in New Tab
+                      </button>
+                    )}
+                    {treeImage && (
+                      <button onClick={downloadImage} className="download-button">
+                        <Download size={16} />
+                        Download PNG
+                      </button>
+                    )}
+                  </div>
                 </div>
 
                 <div className="tree-container-display">
@@ -493,6 +508,34 @@ export default function Dashboard() {
                       <span className="loading-title">Generating phylogenetic tree...</span>
                       <span className="loading-subtitle">Running NCBI BLAST and Maximum Likelihood analysis</span>
                       <span className="loading-note">This may take 30-90 seconds</span>
+                    </div>
+                  ) : interactiveTreeUrl ? (
+                    <div style={{ width: "100%", height: "600px" }}>
+                      <iframe
+                        src={interactiveTreeUrl}
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          border: "1px solid #e2e8f0",
+                          borderRadius: "8px",
+                        }}
+                        title="Interactive Phylogenetic Tree"
+                        onError={(e) => {
+                          console.error("Interactive tree failed to load:", e)
+                          setError("Failed to load interactive tree")
+                        }}
+                      />
+                      {treeImage && (
+                        <div style={{ marginTop: "1rem", textAlign: "center" }}>
+                          <button
+                            onClick={() => setInteractiveTreeUrl(null)}
+                            className="zoom-button"
+                            style={{ marginRight: "0.5rem" }}
+                          >
+                            View Static Image
+                          </button>
+                        </div>
+                      )}
                     </div>
                   ) : treeImage ? (
                     <div style={{ width: "100%" }}>
@@ -505,6 +548,13 @@ export default function Dashboard() {
                           setError("Failed to load tree image")
                         }}
                       />
+                      {interactiveTreeUrl && (
+                        <div style={{ marginTop: "1rem", textAlign: "center" }}>
+                          <button onClick={() => setInteractiveTreeUrl(interactiveTreeUrl)} className="zoom-button">
+                            View Interactive Tree
+                          </button>
+                        </div>
+                      )}
                     </div>
                   ) : (
                     <div className="empty-state">
